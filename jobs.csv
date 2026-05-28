@@ -1,0 +1,1032 @@
+job_id,job_title,employer_name,employer_logo,employer_website,job_publisher,job_employment_type,job_employment_types,job_apply_link,job_apply_is_direct,apply_options,job_description,job_is_remote,job_posted_at,job_posted_at_timestamp,job_posted_at_datetime_utc,job_location,job_city,job_state,job_country,job_latitude,job_longitude,job_benefits,job_benefits_strings,job_google_link,job_salary,job_salary_string,job_min_salary,job_max_salary,job_salary_period,job_highlights,job_onet_soc,job_onet_job_zone,employer_reviews
+FCOf6PQHHUzo71UYAAAAAA==,Software Engineer — AI Code Ranking,Alignerr,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRJxYABw17aLPGqIxRGe5BZSAMZISQvKYPP8KI&s=0,https://www.alignerr.com,LinkedIn,Contractor,['CONTRACTOR'],https://ca.linkedin.com/jobs/view/software-engineer-%E2%80%94-ai-code-ranking-at-alignerr-4416940469,False,"[{'apply_link': 'https://ca.linkedin.com/jobs/view/software-engineer-%E2%80%94-ai-code-ranking-at-alignerr-4416940469', 'is_direct': False, 'publisher': 'LinkedIn'}]","About The Role
+
+What if your years of software engineering experience could directly shape how AI writes code for millions of developers? We're looking for Software Engineers in Toronto to evaluate, rank, and refine AI-generated code — helping the next generation of coding assistants produce solutions that are correct, efficient, idiomatic, and production-ready.
+
+Toronto is home to one of the world's most vibrant tech communities, and your engineering expertise is exactly what's needed to make AI coding assistants truly world-class. This isn't about writing boilerplate — it's about applying expert judgment to push the boundaries of what AI can do with code.
+
+This is a fully remote, flexible contract role built for experienced developers who want meaningful, high-impact work on their own schedule.
+
+• Organization: Alignerr
+• Type: Hourly Contract
+• Location: Remote
+• Commitment: 10–40 hours/week
+
+What You'll Do
+
+• Review and rank AI-generated code solutions across multiple programming languages and problem domains
+• Evaluate code for correctness, efficiency, readability, maintainability, and adherence to best practices
+• Identify bugs, anti-patterns, security issues, and performance bottlenecks in AI-generated outputs
+• Write detailed, structured feedback explaining why one solution is better than another
+• Refine and improve AI-generated code to meet production-level engineering standards
+• Provide preference rankings that help AI models learn what ""good code"" actually looks like
+• Work independently and asynchronously — fully on your own schedule
+
+Who You Are
+
+• Software engineer with 3+ years of professional development experience
+• Proficient in one or more major programming languages (e.g., Python, JavaScript/TypeScript, Java, C++, Go, Rust)
+• Strong grasp of data structures, algorithms, and computational complexity
+• Deep understanding of software design principles, clean code practices, and engineering trade-offs
+• Experienced with code review — you know how to assess quality and articulate why something works or doesn't
+• Clear, concise written communicator who can explain technical decisions effectively
+• Self-motivated and reliable when working independently without supervision
+
+Nice to Have
+
+• Experience across multiple languages, frameworks, or tech stacks
+• Background in systems design, distributed systems, or backend architecture
+• Familiarity with AI/ML concepts or experience using AI coding tools (Copilot, ChatGPT, etc.)
+• Prior experience with code evaluation, technical mentoring, or open-source contribution
+• Knowledge of security best practices and performance optimization
+• Experience in competitive programming or technical interviewing
+
+Why Join Us
+
+• Work on cutting-edge AI projects alongside leading research labs
+• Directly influence how AI coding assistants learn to write better software
+• Fully remote and flexible — work when and where it suits you
+• Freelance autonomy with the structure of meaningful, task-based work
+• Leverage your hard-earned engineering expertise in a new, high-impact way
+• Potential for ongoing work and contract extension as new projects launch
+• Join a global community of top-tier engineers shaping the future of AI-assisted development",False,1 day ago,1779148800,2026-05-19T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DFCOf6PQHHUzo71UYAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+VeS9Bm6xdXRnp31HAAAAAA==,Lead AI Engineer in Machine Learning,Litmus7,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgNPmdi3snkA9j7B0dvJZS4ta0eC2Xuba3G9EQ&s=0,https://www.litmus7.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/lead-ai-engineer-in-machine-learning-litmus7-canada--jobgoal-22543_f27ddb4c922132719799f01dd46f7fd5-1630492-v,False,"[{'apply_link': 'https://bebee.com/ca/jobs/lead-ai-engineer-in-machine-learning-litmus7-canada--jobgoal-22543_f27ddb4c922132719799f01dd46f7fd5-1630492-v', 'is_direct': False, 'publisher': 'BeBee'}]","Join a cutting-edge AI team as a Lead AI Engineer specializing in machine learning. This role is perfect for those passionate about creating impactful AI solutions using advanced techniques. As a Lead AI Engineer, you will bring 7+ years of experience to build and optimize ML models across different industries.
+
+Your strong background in natural language processing and generative AI will facilitate the development of innovative applications. This role demands active collaboration across teams to ensure effective execution of AI projects. Key Responsibilities:
+
+• Develop and enhance machine learning models for various applications
+• Create natural language processing pipelines for diverse tasks
+• Implement MLOps practices for model monitoring and deployment
+• Manage the ML lifecycle from data processing to deployment
+• Integrate ML into existing products for improved functionality Requirements:
+• Minimum 7 years of relevant experience in AI development
+• Profound knowledge of machine learning algorithms and techniques
+• Hands-on experience with generative AI applications
+• Familiarity with ML deployment on cloud platforms
+• Strong analytical, problem-solving skills, and communication Make an impact in AI development by using your expertise to foster innovation.",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,Canada,,,CA,56.130365999999995,-106.34677099999999,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DVeS9Bm6xdXRnp31HAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+25s4JaP1vh9eu2mMAAAAAA==,AI Platform Engineer (Remote),Outlier AI,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZAfdgxVwaJszp7hCix3_uWu4i7v0v1i0W_m9&s=0,https://outlier.ai,BeBee,Internship,['INTERN'],https://bebee.com/ca/jobs/ai-platform-engineer-remote-outlier-ai-bc-bc-canada--jobgoal-28634_bb7b7be4-89ee-4b61-a170-a5a74a62f85c,False,"[{'apply_link': 'https://bebee.com/ca/jobs/ai-platform-engineer-remote-outlier-ai-bc-bc-canada--jobgoal-28634_bb7b7be4-89ee-4b61-a170-a5a74a62f85c', 'is_direct': False, 'publisher': 'BeBee'}]","About the Project Outlier helps the world’s most innovative companies improve their AI agents by providing human feedback. Do you want to shape the future of autonomous agents like OpenClaw? We collaborate with leading AI organizations to train Large Language Models (LLMs) to function as proactive, multi-step agents.
+
+Our projects focus on teaching these systems how to design, coordinate, and optimize complex, real-world architectural workflows. Whether you are a passionate orchestration guru or experienced software developer — we want you to help us train the world's most advanced generative systems.
+
+Ideal
+
+Qualifications • 2+ years of experience in backend engineering, AI automation, or complex systems integration.
+
+• Proven ability to build and maintain production-grade software with modular separation (e.g., distinct services for data parsing, logic processing, and reporting).
+• Strong command of at least two major languages (e.g., Python, JavaScript, Go, or Java) and experience working with SQL databases.
+• Practical experience building for live, non-mocked environments and handling multi-turn system interactions.
+• Outstanding attention to detail and the ability to provide clear, high-density technical feedback on complex system behaviors. Nice to have • Expertise building multi-stage coordination tasks where data acquisition leads to reasoned output.
+• Hands-on experience integrating agents with live tools such as Supabase, Gmail, and various APIs to solve real-world problems.
+• High level of comfort implementing persistent state and session discovery using MEMORY.md to track agent progress.
+• Experience identifying subtle failures like privacy leaks, authority escalation, or indirect prompt injections.",False,2 days ago,1779062400,2026-05-18T00:00:00.000Z,"Bella Coola, BC",Bella Coola,British Columbia,CA,52.3721277,-126.7539346,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3D25s4JaP1vh9eu2mMAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+0RqhqMnoKcBMEKnrAAAAAA==,Staff AI Platform Engineer,Royal Bank of Canada,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmsDzx2Q-wc_1iR7QCl8gKvOjDPKHqDAFaCu-A&s=0,,RBC Careers,Full-time,['FULLTIME'],https://jobs.rbc.com/ca/en/job/R-0000169012/Staff-AI-Platform-Engineer,False,"[{'apply_link': 'https://jobs.rbc.com/ca/en/job/R-0000169012/Staff-AI-Platform-Engineer', 'is_direct': False, 'publisher': 'RBC Careers'}]","Job Description
+
+What is the opportunity?
+
+At RBC Borealis, we're building the AI Agent Platform that will redefine how financial services are developed, deployed, and run securely at scale. Our team is responsible for the platform that powers intelligent, autonomous agents across multi-cloud environments including OpenShift, AWS, and Azure.
+
+As a Staff Software Developer, you'll play a critical role in designing, building, and operating core components of this platform. You'll work alongside Senior and Principal Developers, driving architectural decisions, mentoring engineers, and delivering high-quality, production-ready code. You'll contribute to shaping the platform that enables RBC teams to build and run AI-powered systems safely and efficiently.
+
+What will you do?
+• Design, build, and maintain services that enable secure, scalable, and observable AI agent workloads across multiple environments.
+• Collaborate with engineering, architecture, and security teams to define and implement technical standards, APIs, and best practices.
+• Drive the development of platform capabilities including identity, networking, observability, and runtime orchestration.
+• Mentor and support engineers through code reviews, design sessions, and knowledge sharing.
+• Contribute to improving developer experience and deployment automation through CI/CD, infrastructure-as-code, and testing frameworks.
+• Participate in technical planning, helping to define milestones and deliverables across engineering squads.
+• Ensure reliability, performance, and security are embedded into everything we build.
+
+What do you need to succeed?
+
+Must-have:
+• 5+ years of Infrastructure engineering in Azure, Terraform, Cloud Security.
+• Strong practical experience in AI resources in Azure and AWS (AI Foundry, Bedrock, Azure AI Search)
+• Experience in Agentic AI concepts: MCP, A2A, Guardrails, Authentication, Evaluation,
+• Hands-on experience with Kubernetes (AKS, Openshift) , and building containerized, cloud-native applications.
+• Experience with observability tools and monitoring systems such as Prometheus, Grafana, or Dynatrace.
+• Proven track record of delivering high-quality, production systems end-to-end.
+• Strong collaboration and communication skills, with experience influencing technical decisions across teams.
+
+Nice-to-have
+• Experience with AI frameworks such as LangChain, LlamaIndex, or similar.
+• Familiarity with Azure Entra ID, workload identity, SPIFFE/SPIRE, or OIDC integration.
+• Exposure to admission controllers, policy enforcement, or platform security tools.
+• Interest in mentoring engineers and contributing to technical strategy discussions
+
+About RBC Borealis
+
+RBC Borealis is the driving force behind Royal Bank of Canada’s AI and data innovation. As part of Canada’s largest financial institution, we bring together a team of architects, engineers, scientists, and product experts on a mission to revolutionize finance through world-class research, solutions, and a resilient data platform. With locations across Toronto, Waterloo, Montreal, Calgary, and Vancouver, we’re at the forefront of AI research and platform development. With a focus on cutting-edge research in areas like time series forecasting, causal machine learning, and responsible AI, we are seamlessly integrating AI research and data engineering, to solve critical challenges in the financial industry. We are building intelligent, and scalable, data-driven solutions that will help communities thrive and drive innovation for our customers across the bank.
+
+Inclusion and Equal Opportunity Employment
+
+RBC is an equal opportunity employer committed to diversity and inclusion. We are pleased to consider all qualified applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, protected veterans status, Aboriginal/Native American status or any other legally-protected factors. Disability-related accommodations during the application process are available upon request.
+
+#TECHPJ
+
+#Ll-POST
+
+Job Skills
+Active Learning, Agile Methodology, AI Agents, Application Integrations, Detail-Oriented, Docker (Software), Group Problem Solving, Kubernetes, Microsoft Azure, Programming Languages, Python (Programming Language), Software Development Life Cycle (SDLC), Terraform
+
+Additional Job Details
+
+Address:
+
+RBC WATERPARK PLACE, 88 QUEENS QUAY W:TORONTO
+
+City:
+
+Toronto
+
+Country:
+
+Canada
+
+Work hours/week:
+
+37.5
+
+Employment Type:
+
+Full time
+
+Platform:
+
+TECHNOLOGY AND OPERATIONS
+
+Job Type:
+
+Regular
+
+Pay Type:
+
+Salaried
+
+Posted Date:
+
+2026-04-21
+
+Application Deadline:
+
+2026-05-31
+
+Note: Applications will be accepted until 11:59 PM on the day prior to the application deadline date above
+
+Our Employment Opportunities
+
+At RBC, we are guided by living shared values of Client First, Integrity, Collaboration, Respect and Excellence and winning together as One RBC. We believe an inclusive workplace that has diverse perspectives is core to our continued growth as one of the largest and most successful banks in the world. Maintaining a workplace where our employees feel supported to perform at their best, effectively collaborate, drive innovation, and grow professionally helps to bring our Purpose to life and create value for our clients and communities. RBC strives to deliver this through policies and programs intended to foster a workplace based on respect, belonging and opportunity for all.
+
+Join our Talent Community
+
+Stay in-the-know about great career opportunities at RBC. Sign up and get customized info on our latest jobs, career tips and Recruitment events that matter to you.
+
+Expand your limits and create a new future together at RBC. Find out how we use our passion and drive to enhance the well-being of our clients and communities at jobs.rbc.com.
+
+RBC is presently inviting candidates to apply for this existing vacancy. Applying to this posting allows you to express your interest in this current career opportunity at RBC. Qualified applicants may be contacted to review their resume in more detail.",False,13 days ago,1778112000,2026-05-07T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3D0RqhqMnoKcBMEKnrAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+7kNgTYZfVKUpc5nJAAAAAA==,Mid-Senior AI/ML Developer in Toronto,Tekgence Inc,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Af2DmaOVdh92WJw8xekys3zo0o3IghjiB7sC&s=0,,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/mid-senior-ai-ml-developer-in-toronto-tekgence-inc-toronto-on-canada--jobgoal-24997_C616054ABD9A0DA7B7FECB4B68D4407E,False,"[{'apply_link': 'https://bebee.com/ca/jobs/mid-senior-ai-ml-developer-in-toronto-tekgence-inc-toronto-on-canada--jobgoal-24997_C616054ABD9A0DA7B7FECB4B68D4407E', 'is_direct': False, 'publisher': 'BeBee'}]","Elevate your AI/ML skills with Tekgence Inc as a Mid-Senior AI/ML Developer in Toronto. Dive into Generative AI projects utilizing Java, Python, and cloud technologies to drive innovation.
+
+In this contract role, you'll build advanced analytical solutions while applying your knowledge of Machine Learning and Deep Learning. You will leverage AI techniques to address practical business scenarios while ensuring code quality and efficiency. Familiarity with cloud environments will enable you to integrate and deploy AI models effectively.
+
+Key Responsibilities:
+• Develop Generative AI solutions using Java and Python
+• Apply ML and NLP theories to real-world business cases
+• Write reusable, testable, and efficient code
+• Deploy and integrate models in cloud environments
+• Conduct advanced analytics and AI development
+
+Requirements:
+• 0-2 years of AI/ML development experience
+• Proficient in Python programming
+• Fundamental knowledge of Deep Learning and NLP
+• Understanding of cloud technologies (AWS, Azure, GCP)
+• Strong analytical and problem-solving skills
+
+Contribute to innovative AI development while advancing your career with Tekgence Inc in Toronto.",False,4 days ago,1778889600,2026-05-16T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3D7kNgTYZfVKUpc5nJAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+CZYffzUzZOstukHxAAAAAA==,Senior AI/ML Architect in Canada,Insight Global,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZcedD_3dF93ViStyNIWTQoxuaUqovO_AbE5a&s=0,https://insightglobal.com,Talent.com,Full-time,['FULLTIME'],https://ca.talent.com/view?id=619897995852984289,False,"[{'apply_link': 'https://ca.talent.com/view?id=619897995852984289', 'is_direct': False, 'publisher': 'Talent.com'}]","Lead innovative AI and machine learning projects as a Senior AI/ML Architect with our company. This hybrid position focuses on designing scalable solutions using Databricks.
+
+We seek a highly skilled AI/ML Architect with a rich background in developing modern AI/ML systems. Located in Guelph, Mississauga, Toronto, and other cities, you will guide teams in architecting robust solutions and implementing effective MLOps strategies. Your expertise will directly shape our AI/ML landscape and strategy.
+
+Key Responsibilities: • Design and modernize AI/ML architecture for production use • Guide engineering and data science teams on AI/ML projects • Implement scalable solutions using Databricks and Feature Store • Shape the company’s AI/ML strategy and vision • Lead initiatives to enhance data analytics capabilities
+
+Requirements: • 10+ years in data and analytics • 5+ years in machine learning architecture • Strong experience with Databricks • Proven skills in implementing Feature Store • Relevant Microsoft certifications are a plus
+
+Utilize your extensive AI/ML expertise to innovate and lead at the forefront of technology. #J-18808-Ljbffr",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,Ontario  (+1 other),,,,,,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DCZYffzUzZOstukHxAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+JBe3Phyc1UQJuIQ7AAAAAA==,"Lead, Applied AI",Uber,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS09mN-65zmzDKMgOHfnYlMDlpV0j1sonkqnOf8&s=0,https://www.uber.com,Glassdoor,Full-time,['FULLTIME'],"https://www.glassdoor.ca/job-listing/lead-applied-ai-uber-JV_IC2281069_KO0,15_KE16,20.htm?jl=1010136489164",False,"[{'apply_link': 'https://www.glassdoor.ca/job-listing/lead-applied-ai-uber-JV_IC2281069_KO0,15_KE16,20.htm?jl=1010136489164', 'is_direct': False, 'publisher': 'Glassdoor'}]","About the Role
+
+We're looking for a Lead, Applied AI to architect and scale intelligent automation solutions that transform how Uber Advertising's Measurement Science function operates. You'll lead the technical strategy for AI-driven workflows, build production-grade AI systems, and partner with cross-functional leadership across Measurement Science to identify high-impact automation opportunities.
+
+This position is designed for a technical builder who excels in a high-code environment and is passionate about organizational enablement. You will manage the core technical infrastructure required for secure and reliable AI operations while simultaneously spearheading the integration and adoption of these advanced capabilities throughout the Measurement Science organization.
+
+What You'll Do:
+• Build production AI applications end to end that solve concrete measurement problems for our partner teams, taking systems from idea to launch
+
+• Design and implement AI agents and agentic workflows using frameworks like LangChain, LangGraph, or MCP
+
+• Develop RAG systems including vector store implementation, embedding strategy, retrieval logic, and context management
+
+• Apply foundation models and LLMs through prompt engineering, orchestration, and lightweight fine-tuning where needed (foundational model development continues to live with our AI/ML pod)
+
+• Architect AI-specific data access patterns and APIs that allow agents to query data safely (core data pipelines remain owned by our Data Infrastructure pod)
+
+• Build AI-powered internal tools, conversational interfaces, and Slack apps that drive adoption across the org
+
+• Establish AI safety and reliability practices including guardrails, evaluation, fallback logic, and PII protections
+
+• Build evaluation infrastructure to measure AI output quality, catch regressions, and continuously improve performance
+
+• Champion engineering excellence across testing, observability, and incident response for AI systems
+
+• Partner with cross-functional leadership to spot high impact AI opportunities and translate business problems into AI solutions
+
+• Drive adoption through documentation, partnership with end users, and ongoing iteration based on feedback
+
+• Set technical direction for AI across our team by establishing patterns and reusable components other engineers can build on
+
+Basic Qualifications:
+• 5+ years of hands-on engineering experience, with meaningful time spent building AI or automation systems
+
+• Track record of shipping production AI or automation applications that drove measurable business impact
+
+• Advanced Python and SQL proficiency for working with data at scale
+
+• Production experience integrating LLMs into real applications, including prompt engineering, retrieval, and evaluation
+
+• Experience designing and consuming APIs, with comfort building reliable services (FastAPI, Flask, or similar)
+
+• Working knowledge of at least one AI orchestration framework such as LangChain, LangGraph, or MCP
+
+• Familiarity with vector databases and RAG patterns
+
+• Solid engineering fundamentals around Git, CI/CD, testing, and event driven systems
+
+• Strong cross-functional communication skills and the ability to drive adoption of new tools across non technical teams
+
+Preferred Qualifications:•
+Experience with AI evaluation tools and observability for non deterministic systems
+
+• Built Slack apps, conversational interfaces, or other AI-powered internal tools with strong adoption
+
+• Hands-on experience designing agentic systems with function calling, tool use, or multi agent orchestration
+
+• Production cloud experience (AWS, GCP, or Azure) and containerization (Docker, Kubernetes)
+
+• Integration experience with business platforms like Salesforce, Slack, Google Workspace, or Jira
+
+• Background in ad tech, measurement, or analytics platforms
+
+For Canada-based roles: Uber may use artificial intelligence (AI) tools to support parts of our recruiting process; however, Uber employees make the ultimate selection and hiring decisions. This advertisement relates to a current, existing vacancy.
+
+For Canada-based roles: The base salary range for this role is CAD$136,000 per year - CAD$151,500 per year. You will be eligible to participate in Uber's bonus program, and may be offered an equity award & other types of comp. You will also be eligible for various benefits. More details can be found at the following link https://jobs.uber.com/en/benefits.",False,6 days ago,1778716800,2026-05-14T00:00:00.000Z,Canada,,,CA,56.130365999999995,-106.34677099999999,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DJBe3Phyc1UQJuIQ7AAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+hSnUPFy0m0lUttAKAAAAAA==,AI/ML Developer Co-op in Ottawa,Ericsson GmbH,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0Fgvw3tzmhL6dRvbNFIIHPSxQyH_R797h-E2&s=0,https://www.ericsson.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/ai-ml-developer-co-op-in-ottawa-ericsson-gmbh-ottawa--bs-ca-c47dbe97-0bf7-4b79-a978-693e658264e3,False,"[{'apply_link': 'https://bebee.com/ca/jobs/ai-ml-developer-co-op-in-ottawa-ericsson-gmbh-ottawa--bs-ca-c47dbe97-0bf7-4b79-a978-693e658264e3', 'is_direct': False, 'publisher': 'BeBee'}]","Kickstart your tech career with Ericsson as a Test Environment Developer Co-op in Ottawa, Ontario. This role focuses on AI/ML solutions for 4G/5G radio performance verification.
+
+Ericsson Canada
+
+Inc. seeks a motivated co-op student for a 12-16 month term. You'll be part of the radio verification team, leveraging AI/ML techniques to automate performance testing. Proficiency in Python and ML libraries is essential, along with Java coding skills. Onsite work is required for this position, enhancing collaboration and effective problem-solving. Key Responsibilities:
+
+• Implement AI/ML solutions for KPI prediction
+• Develop test automation software using Java
+• Preprocess and analyze measurement data
+• Collaborate with RF engineers and project managers
+• Produce documentation for test setups and results Requirements:
+• Enrolled in Electrical Engineering or related field
+• Coding experience in Java and Python
+• Knowledge of AI/ML models and evaluation metrics
+• Good English communication and problem-solving skills
+• Willingness to work onsite in the lab Embrace this unique opportunity to contribute to cutting-edge technology with Ericsson's innovative team.",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,"Ottawa, ON",Ottawa,Ontario,CA,45.420057199999995,-75.7003397,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DhSnUPFy0m0lUttAKAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+NxouaAl8pUuAK_dbAAAAAA==,Senior Conversational AI Solution Architect,Pwc Canada,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-q6rAaYs65TTipTuUo1KJdkKifXMy8vAEJFAp&s=0,https://www.pwc.com,PwC Canada Careers,Full-time,['FULLTIME'],https://jobs-ca.pwc.com/ca/en/job/704483WD/Senior-Conversational-AI-Solution-Architect,False,"[{'apply_link': 'https://jobs-ca.pwc.com/ca/en/job/704483WD/Senior-Conversational-AI-Solution-Architect', 'is_direct': False, 'publisher': 'PwC Canada Careers'}]","Reporting to the Director of Solutions Architecture, within our Products & Technology organization, the Senior Conversational AI Solution Architect will provide the opportunity to invest in new business models that leverage our knowledge and design technology solutions for the growing digital market. Each new solution focuses on data-driven platforms or other intellectual property-based solutions that leverage emerging technologies and new business models with a primary focus on Conversational AI (voice + chat). Through the process of designing new solutions, we foster a culture of innovation within PwC, extend brand relevance in the market, and generate new revenue.
+
+The Opportunity
+
+As a Senior Conversational AI Solution Architect at the Senior Manager level, unlock your potential and embrace the chance to drive meaningful outcomes that’ll elevate your career. Your role will include, but isn’t limited to:
+• Solution the development of AI projects executed by Development teams
+• Provide technical guidance regarding tools, frameworks, and platforms specifically for conversational AI and real-time voice experiences
+• Design and optimize Azure application and infrastructure architectures to support scalable, secure, low-latency conversational systems
+• Lead the development and deployment of AI solutions, with emphasis on voice-enabled conversational agents and enterprise integrations
+• Architect real-time voice conversation experiences, including streaming audio pipelines, turn-taking, interruption/barge-in, and session lifecycle management
+• Define architecture patterns for conversation orchestration, tool integrations, and knowledge grounding to support task completion and accurate responses
+• Be actively involved in business development activities to identify and research opportunities on new/existing clients
+• Support the Enterprise Architecture processes
+• Shape and deliver digital products to meet clients' expectations
+• Assist Enterprise Architects in assessing technology solutions and participate in business development activities
+• Supervise and support Vendor’s developers
+• Execute periodical code reviews
+
+What You’ll Bring
+
+Your skills, knowledge, and experiences are what set you apart. Here's what we look for:
+• Bachelors or Masters degree in Computer Science or Engineering
+• Azure (Solutions Architect or Developer) and Microsoft Development Certifications preferred
+• Have worked extensively in large scale software solution implementations with hands-on experience
+• Knowledge and expertise regarding solutioning AI initiatives
+• Proficiency in Azure services and tools like Azure DevOps
+• Exposure to working with leading Azure AI technologies like Azure AI Foundry and Azure AI Speech (including voice-enabled solution patterns)
+• Agent orchestration, tool/function calling, workflow design, and resilient fallback patterns
+• Knowledge grounding (RAG), enterprise search/indexing, evaluation and quality measurement
+• Conversational AI (Voice) stack expertise across Azure AI Foundry and Azure AI Speech (WebSocket event model, turn detection, audio enhancement, session controls), including real-time speech/audio.
+• Real-time voice fundamentals in low-latency async/event-driven architectures (WebSockets/WebRTC) and telephony/voice channel integration
+• AI development frameworks and their deployment on Azure
+• Building scalable AI assets that can be utilized through low / no-code platforms such as Copilot Studio
+• Service-oriented, event-driven, and microservices architectures and knowledge regarding AI technologies is highly desirable
+• This role does not require professional engineering licensure and is not classified as a formal engineering position under provincial regulatory definitions. While individuals with a P.Eng designation are welcome to apply, the responsibilities of this role do not involve the practice of professional engineering as defined by applicable legislation
+• PwC Canada is committed to cultivating an inclusive, hybrid work environment. Exact expectations for your team can be discussed with your interviewer
+
+This newly created role reflects our commitment to growth and delivering distinctive value for our clients and stakeholders.
+
+The salary range for this position is $137,600 - $187,600. The posted salary range represents the expected hiring range for PwC locations in major city centres. Given our national recruiting approach, ranges may vary for positions in other locations. At PwC Canada, base salary is determined by your skills, experience, qualifications and work location. In addition to base salary, eligible employees may have opportunities to participate in variable incentive pay programs which are designed to reward individual and firm-wide achievements. We are committed to offering competitive compensation and adhere to all relevant pay transparency legislation. During the hiring process, our Talent Acquisition team will provide details about our comprehensive total rewards package.
+
+Why you’ll love PwC
+
+We’re inspiring and empowering our people to change the world. Powered by the latest technology, you’ll be a part of diverse teams helping public and private clients build trust and deliver sustained outcomes. This meaningful work, and our continuous development environment, will take your career to the next level. We reward your impact, and support your wellbeing, through a competitive compensation package, inclusive benefits and flexibility programs that will help you thrive in work and life. Learn more about our Application Process and Total Rewards Package at: https://jobs-ca.pwc.com/ca/en/life-at-pwc
+
+PwC Canada acknowledges that we work and live across Turtle Island, on the land that is now known as Canada, which are the lands of the ancestral, treaty and unceded territories of the First Nations, Métis and Inuit Peoples. We recognize the systemic racism, colonialism and oppression that Indigenous Peoples have experienced and still go through, and we commit to allyship and solidarity.
+
+We’re committed to providing accommodation throughout the application, interview, and employment process. If you require accommodation to be at your best, please let us know during the application process.
+The use of artificial intelligence (AI) in recruiting is just getting started, so we know you have questions about how and why we use it. At certain points during our recruiting process, we rely on AI to improve your experience. This could be during resume review or curating personalized job recommendations, asking you clarifying questions via a chatbot or during our interview scheduling to improve your experience. Our use of AI helps ensure we combat bias by evaluating candidates equally and fairly, without seeing identity information, such as your name, or gender for example). AI also helps us better predict successful hires by reviewing all applicants for a role and the relationship between your skills, experience and likely success at PwC Canada. While AI supports parts of our recruitment process, final hiring decisions always involve human review. For more information about our use and protection of your data, please refer to our Privacy Policy (https://www.pwc.com/ca/en/privacy-policy.html).",False,21 hours ago,1779231600,2026-05-19T23:00:00.000Z,"Calgary, AB   (+2 others)",,,,,,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DNxouaAl8pUuAK_dbAAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+FmfddHumtuinhun3AAAAAA==,AI Product Owner,BRP,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFnLakV_IdvBEP70mvPzXBFzi_ML2TeTgcl8td&s=0,,BRP Job Opportunities,Full-time,['FULLTIME'],https://careers.brp.com/global/en/job/35384/AI-Product-Owner,False,"[{'apply_link': 'https://careers.brp.com/global/en/job/35384/AI-Product-Owner', 'is_direct': False, 'publisher': 'BRP Job Opportunities'}]","Be a part of a fast-paced culture and community in a startup-like environment inside one of the most successful organizations in Québec. We are focused on building a highly talented and ambitious team from the ground up that revolutionizes the way we work around Data & Analytics at BRP. We are a team that has the potential to unlock tremendous value for the organization and you have the unique opportunity to be part of it from the beginning
+Join BRP's central Data & Analytics team (DNA) as an AI Product Owner and bring your analytical skills and business insight to our dynamic team. This role is perfect for someone who seeks to blend their understanding of business intelligence with the predictive power of data science to unlock new opportunities for BRP.
+
+YOU'LL HAVE THE OPPORTUNITY TO:
+Strategic Bridge & Stakeholder Management
+• Act as the primary point of contact between business stakeholders and the AI team
+
+• Gather, qualify, and prioritize AI-related opportunities from across the business
+
+• Manage expectations, communicate clearly, and drive alignment in complex environments
+
+AI Opportunity Evaluation
+• Lead supplier evaluations: challenge AI-powered feature claims, assess fit, cost, and risk
+
+• Own the build vs. buy decision process for every AI opportunity that lands on the team's radar
+
+• Ensure the AIML team focuses its energy where it genuinely creates the most value
+
+Economic Value & Business Cases
+• Develop and own the business case for each initiative (ROI, cost avoidance, productivity gain)
+
+• Track realized value post-delivery and feed learnings back into prioritization
+
+• Provide objective assessments, including when an opportunity is not worth pursuing
+
+AI Team Coordination
+• Coordinate the AI-specialized team (Architect, Cybersecurity, Cloud Engineer, Scrum Master)
+
+• Maintain a clear backlog and roadmap for the team's portfolio
+
+• Support delivery across sprints, experimentation phases, and release cycles
+
+YOU’LL THRIVE IN THIS ROLE IF YOU HAVE THE FOLLOWING SKILLS AND QUALITIES:
+• 5+ years as a Product Owner, Product Manager, or Business Analyst in a tech or data environment
+
+• Comfortable with financial modelling and business case construction
+
+• Understands AI/ML capabilities well enough to challenge both suppliers and internal teams
+
+• Excellent communication and stakeholder management skills
+
+• Proficiency in French and English
+
+STAND OUT WITH...
+• Experience evaluating or procuring AI-powered solutions from external suppliers
+
+• Background combining product ownership with strategic advisory or consulting
+
+• Exposure to AI/ML platforms and the vendor landscape
+
+ACKNOWLEDGING THE POWER OF DIVERSITY
+BRP is dedicated to nurturing a culture that invites, connects, and propels the ambitions of people of all backgrounds, profiles, beliefs and experiences. Ultimately, the diversity and uniqueness of our people fuel our ingenuity and set the course for the path ahead!
+For this reason, we value diversity and we strive to always push each other forward to build an inclusive workplace where every employee feels like they belong, where they can grow and find meaning.
+AT BRP, WHEN WE TALK ABOUT BENEFITS, WE GO ALL IN.
+Let’s start with a strong foundation — You want it, we have it:
+• Annual bonus based on the company’s financial results
+
+• Generous paid time away
+
+• Pension plan
+
+• Collective saving opportunities
+
+• Industry leading healthcare fully paid by BRP
+
+What about some feel good perks:
+• Flexible work schedule
+
+• A summer schedule that varies by department and location
+
+• Holiday season shutdown
+
+• Educational resources
+
+• Discount on BRP products
+
+WELCOME TO BRP
+We’re a world leader in recreational vehicles and boats, creating innovative ways to move on snow, water, asphalt, dirt and even in the air. Headquartered in the Canadian town of Valcourt, Quebec, our company is rooted in a spirit of ingenuity and intense customer focus. Today, we operate manufacturing facilities in Canada, the United States, Mexico, Finland, Australia and Austria, with a workforce made up of close to 17,000 spirited people, all driven by the deeply held belief that at work, as with life itself, it’s not about the destination: It’s about the journey.
+#LI-Hybrid",False,19 days ago,1777593600,2026-05-01T00:00:00.000Z,"Montreal, Quebec",Montreal,Quebec,CA,45.501886899999995,-73.56739189999999,,,https://www.google.com/search?q=jobs&gl=ca&hl=en&udm=8#vhid=vt%3D20/docid%3DFmfddHumtuinhun3AAAAAA%3D%3D&vssid=jobs-detail-viewer,,,,,,{},,,
+H-kKf4lXF8AlOm75AAAAAA==,AI Video Processing Engineer II Role,Amazon Development Centre Canada ULC,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZcedD_3dF93ViStyNIWTQoxuaUqovO_AbE5a&s=0,,Talent.com,Full-time,['FULLTIME'],https://ca.talent.com/view?id=619863407040077002,False,"[{'apply_link': 'https://ca.talent.com/view?id=619863407040077002', 'is_direct': False, 'publisher': 'Talent.com'}]","Elevate your career as a Software Development Engineer II with AWS Elemental Inference. Engage with complex AI-driven video processing technologies while enjoying a balanced and innovative work environment.
+
+In this engaging role, you will collaborate with scientists and engineers to translate advanced research into functional video processing systems. Your work will include optimizing workflow resiliency and performance, paving the way for new customer features powered by AI. The position emphasizes mentorship and collaborative development while applying the latest advancements in machine learning.
+
+Key Responsibilities: • Deliver production code to address video processing challenges • Work with teams to develop AI-enhanced customer features • Find solutions to improve system scalability and performance • Conduct code reviews to improve coding practices • Mentor other engineers in MLOps and feature implementation
+
+Requirements: • 3+ years of software development experience • Minimum 2 years designing systems with reliability • Familiarity with at least one programming language
+
+Contribute to the future of video technology with your passion for AI and software development at AWS Elemental. #J-18808-Ljbffr",False,4 days ago,1778889600,2026-05-16T00:00:00.000Z,"Winnipeg, MB  (+1 other)",,,,,,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=H-kKf4lXF8AlOm75AAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBAAUFz7CU43i7YiutipVpGKggjqWNL0SCPpXcgFKX6Vn2hd3viS7yTJiwoetkWGa2CNIpYMHMhYQgxQVXBjh7CAEzcgqILugAmOzMbhNO9i9LLNMhGXGokqWp1q7jMmbHjIXtzIn1o6FdA7FbFebZZD6snM1kWvPuO1xzc69j1ShHIkIJSKVKvgfi7BEjwtkfVo5nDZ_QAxoCftswAAAA&shmds=v1_ATWGeeOXvIPsdFwNvqOqhWX7z0kn_fGxXJRIykKeQToY8nW99Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=H-kKf4lXF8AlOm75AAAAAA%3D%3D",,,,,,{},,,
+qPdZ74HkR0r89UEsAAAAAA==,Lead Engineer for AI Platforms at Amazon,Amazon,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB8cjilIv0noOFj0tHO0SIQi6iDNcIlTstotBh&s=0,https://www.aboutamazon.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/lead-engineer-for-ai-platforms-at-amazon-amazon-toronto--jobmesh-c7d4adfb-8f7a-4e85-a99e-8bc56484c7aa,False,"[{'apply_link': 'https://bebee.com/ca/jobs/lead-engineer-for-ai-platforms-at-amazon-amazon-toronto--jobmesh-c7d4adfb-8f7a-4e85-a99e-8bc56484c7aa', 'is_direct': False, 'publisher': 'BeBee'}]","Become the Manager of AI Platform Engineering at Amazon in Toronto, Canada, and drive innovation in data solutions and AI-driven infrastructure. Focus on building and mentoring a dynamic team.In this pivotal role, you will manage a team responsible for developing self-service data solutions and operating data pipelines. Your leadership will help navigate the evolution of AI tools in data engineering, focusing on automation and improving operational efficiency.
+
+Partner closely with cross-functional teams to capture data requirements and translate them into impactful engineering strategies.Key Responsibilities:
+
+• Direct team efforts in data pipeline operation and management • Mentor engineers on AI tooling and data practices • Collaborate on defining technical requirements and roadmaps • Implement agents for proactive analytics solutions • Support integration of observability tooling in data operationsRequirements:
+• 3+ years of engineering management experience • 7+ years directly in data engineering • 3+ years architecting data systems • 5+ years leading cloud-native data development • Familiarity with generative AI toolsElevate data engineering excellence at Amazon through your leadership and innovative mindset in Toronto.",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=qPdZ74HkR0r89UEsAAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y2MsQrCQAxAce3u4pRZtCeCiw7SQUQRdXAvaU3vKtekXDIU_8P_tYLL473lZZ9Jtr8QPuHAvmWiBI0kKE5wj2ijdgpoUHT4FoYlnKUCJUx1gLGPIj7SbBfMet06pxpzr4bW1nktnROmSgb3kkp_KDVgon4cU7nerIa8Zz-f_t8tw0OSsMkCbtcvPao425gAAAA&shmds=v1_ATWGeeOCSiVikWqGuHDCEuFAhxUXlfX2NJffHcEFTsa1IrnARg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=qPdZ74HkR0r89UEsAAAAAA%3D%3D",,,,,,{},,,
+yA2mKHcGMt1wmrnsAAAAAA==,AI Engineer (AI Internal Tools),Knak,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQepc6WQeL_bBzJEWNAbXDWkljZHPElWm-OBZFV&s=0,https://knak.com,LinkedIn,Full-time,['FULLTIME'],https://ca.linkedin.com/jobs/view/ai-engineer-ai-internal-tools-at-knak-4404446274,False,"[{'apply_link': 'https://ca.linkedin.com/jobs/view/ai-engineer-ai-internal-tools-at-knak-4404446274', 'is_direct': False, 'publisher': 'LinkedIn'}]","Knak Is a Mission-driven Company
+
+Why? Because our time is limited, our competition is fierce, and our margin for error is small. For us to have the greatest impact on the world, we need to be laser focused on our core mission, which is...
+
+Empowering people to be creative.
+
+That’s why Knak exists.
+
+We are a world-class enterprise email and landing page creation platform with a focus on making successful and happy customers by providing them with an incredibly powerful, yet easy to use creation platform.
+
+Our industry leading SaaS solution is built by Marketers, for Marketers. We know that it’s the small things that make the biggest impact and that emails and landing pages are where the rubber hits the road when it comes to Marketing Automation. We change the way Marketers work by making them more efficient, while improving conversion rate of their campaigns and helping them stay on brand.
+
+Oh, and we have a bit of fun while doing it, too!
+
+Our Engineering Team
+
+At Knak, we build groundbreaking software used by marketers at many of the world’s top companies. As engineers, we foster a transparent, collaborative and blameless culture. We emphasize continuous learning and encourage our engineers to experiment in search of creative ways to solve problems and help our customers.
+
+We have a small but rapidly growing team where you'll be given many opportunities to grow and hone your skills across our entire tech stack. Our belief is that to build great software, we have to equip ourselves with the best tools, technologies, and processes.
+
+The Role
+
+We are looking for an AI Engineer to bridge the gap between internal teams and software development. In this role, you will work closely with internal teams and the DevOps team to design, build, and optimize internal tools and workflows that enable AI efficiency across the organization.
+
+You will leverage your full-stack development skills alongside your cloud infrastructure expertise to create reliable, scalable systems that empower our internal teams to do their best work.
+
+Responsibilities
+
+• Enable AI Efficiency: Partner with cross-functional internal teams and DevOps to conceptualize, build, and deploy internal tools and workflows that leverage AI to streamline processes.
+• Full-Stack Development: Develop user-friendly, high-performance internal web applications using Laravel (PHP) and TypeScript for microservices.
+• Infrastructure & Cloud: Deploy, manage, and scale cloud infrastructure using AWS (specifically AWS CDK).
+• Pipeline Ownership: Collaborate with internal teams to maintain, optimize, and take ownership of our CI/CD pipelines using GitHub Actions.
+• Database & API Design: Develop and optimize RESTful API endpoints and effectively manage SQL databases through query optimization and optimal indexing.
+• Observability & Security: Implement monitoring and performance tracking (e.g., Datadog) and execute plans to ensure the continued security of our cloud environments.
+• Code Quality: Actively participate in code reviews, champion clean architecture, and provide constructive mentorship to peers.
+
+Qualifications
+
+• Experience: experience in software software development and DevOps/Cloud infrastructure.
+• Frontend Proficiency: Solid understanding of JavaScript frameworks (specifically Vue.js, but React/Angular experience translates well).
+• Backend Proficiency: Strong experience with Node.js/TypeScript, alongside familiarity with PHP and the Laravel framework.
+• DevOps Skills: Proven track record building applications with Docker, and maintaining CI/CD pipelines in GitHub.
+• Database Expertise: Strong experience with SQL and relational data modeling.
+• Testing & Monitoring: Experience with TDD/automated testing frameworks (Jest, Playwright, PHPUnit) and building Datadog dashboards.
+• Architecture Knowledge: Familiarity with microservices, event-driven architectures, and SaaS release concepts.
+• Communication: Exceptional communication skills with a proven ability to work closely with internal stakeholders to gather requirements and translate them into technical solutions.
+
+Goals
+
+• Be part of a full software development life cycle, from conception to deployment.
+• Be a team player with an eye for visual design and software usability.
+• Champion the adoption of clean, maintainable, and reusable code practices to foster efficient, scalable, and collaborative development.
+
+What We Offer
+
+At Knak we have four foundational pillars. Culture, customers, product and growth. Culture is our number one pillar because we know that is at the core of building a strong company that can build amazing products and delight our customers. We do this with a laser focus on hiring the right people who are smart, positive and who want more than the typical nine-to-five offers.
+
+We offer an extremely rewarding, second to none work environment as acknowledged by Ottawa’s Best Places to Work 2025! We show our investment in our people through our competitive salaries, equity in the company, great benefits, paid vacation, Life leave days (because life happens), team lunches and off-sites, and most importantly our commitment to YOUR career growth.
+
+If this sounds like something you’re looking for, then we’d love to hear from you!
+
+If you don’t see yourself fully reflected in every job requirement listed on the posting above, we still encourage you to reach out and apply. Research has shown that women and underrepresented groups often only apply when they feel 100% qualified. We strongly encourage applicants of all genders, ages, ethnicities, cultures, abilities, sexual orientations, and life experiences to apply. Knak believes in creating an inclusive, barrier-free working environment. If you require ANY accommodation to the interview process please contact culture@knak.com.
+
+At Knak, our recruitment process includes AI screening for keywords and minimum qualifications as well as video interviews which are transcribed with AI. Humans are still at the core of our decision making!
+
+Click here to view the Knak Privacy Policy",False,27 days ago,1776902400,2026-04-23T00:00:00.000Z,"Ottawa, ON",Ottawa,Ontario,CA,45.420057199999995,-75.7003397,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=yA2mKHcGMt1wmrnsAAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXHsQrCQAwAUFw7OjplVNE7Eeygk4NIFeziXtIS7qpnUi4B-wv-tbo8eMVnUpTHCk4ceibKMP-lYqPMmOAuknQBa7hIC0qYuwjCcBYJiWaHaDbo3nvV5IIaWt-5Tl5emFoZ_UNa_dNoxExDQqNmu9uMbuCwnF4Zn9Az1Gb4xhXUty90nUFojAAAAA&shmds=v1_ATWGeeN4HgpIECUHYLsNLQlliwZh1zwfuzkJTjLdUUHthHruyQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=yA2mKHcGMt1wmrnsAAAAAA%3D%3D",,,,,,{},,,
+O7oIwQOn_GAqAZ5pAAAAAA==,Generative AI Research Scientist Role,"Evolver Transformation, Inc.","https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://evolver.ai&size=128",https://www.evolver.ai,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/generative-ai-research-scientist-role-evolver-transformation-inc-toronto-on-canada--jobgoal-22543_9190bbe2c1dd94e2538538d0372c7fc6-1864571-v,False,"[{'apply_link': 'https://bebee.com/ca/jobs/generative-ai-research-scientist-role-evolver-transformation-inc-toronto-on-canada--jobgoal-22543_9190bbe2c1dd94e2538538d0372c7fc6-1864571-v', 'is_direct': False, 'publisher': 'BeBee'}]","Lead innovations in Generative AI as an Applied Research Scientist in an AI startup. Utilize your expertise in cloud development to transform professional services with cutting-edge solutions. This experienced role requires a strong background in Generative AI and cloud applications.
+
+You will spearhead the design, development, and deployment of scalable AI solutions. Collaborating with cross-functional teams, you’ll ensure effective delivery of high-stakes projects while mentoring junior researchers. Key Responsibilities:
+
+• Innovate to stay ahead in AI and Generative AI trends
+• Publish collaborative research to advance open-access knowledge
+• Mentor junior team members for technical skill growth
+• Develop enterprise GenAI solutions leveraging LLMs
+• Design cloud-native solutions, preferably on Azure Requirements:
+• Ph.D. in Computer Science or related field
+• 5+ years of Python development experience
+• 2+ years of experience building AI solutions in Azure
+• Advanced proficiency in libraries like PyTorch, TensorFlow
+• Familiarity with Generative AI frameworks like LangChain Elevate professional services with your AI expertise and make a tangible impact.",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=O7oIwQOn_GAqAZ5pAAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y2MuwrCQBAAsc0nWG3t404EG7WxkBALhZg-XI41Obnshtsl5JP8TCPYTDPMZJ9Fds6RMDkNI8KlgBIFXfIdPH1A0iAKJUeELdy4gb9jgpy5jbg8daqDHK0ViaYVnT_eeO4tEzY82Tc38kMtnUs4RKdY7w-7yQzUrtbXkeOICarkSF6c-jln2kBB3kAgqDgxKW_gcf8CQ09ufqsAAAA&shmds=v1_ATWGeeOjoj4YNGQ077SbfPKbGvZUS2boSU4guWoeMNQZcofoOw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=O7oIwQOn_GAqAZ5pAAAAAA%3D%3D",,,,,,{},,,
+5oMxd4LF0Fl6KGOlAAAAAA==,Artificial Intelligence Architect,Bank of Montreal,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtO35Aciq6WgBkHIscdEpFHRISU1lG_e1HFQsp&s=0,,BMO Career,Part-time,['PARTTIME'],https://jobs.bmo.com/ca/en/job/BOMOGLOBALR250025412EXTERNALENCA/Artificial-Intelligence-Architect,False,"[{'apply_link': 'https://jobs.bmo.com/ca/en/job/BOMOGLOBALR250025412EXTERNALENCA/Artificial-Intelligence-Architect', 'is_direct': False, 'publisher': 'BMO Career'}]","Application Deadline:
+
+05/30/2026
+
+Address:
+100 King Street West
+
+Job Family Group:
+
+Technology
+
+Please note this is a Senior Architect role; AI Architectural experience is a must. Hybrid (2 days/week working in office downtown Toronto).
+
+MUST HAVE: Architecture experience, AWS Cloud, Artificial Intelligence Hands-on experience (architectural), Data Architecture.
+
+Contributes to AI Adoption and Enterprise Architecture from an AI and Data architecture perspective, while bringing their hands on Engineering skills to align business needs with technologies. Partners with internal stakeholders to define the technology capabilities, principles, standards, and guidelines regarding AI including machine learning and data architecture. Provide expert advice regarding AI and Data architecture in critical programs and initiatives. Validates solution architecture for adherence to defined policies, standards and guidelines including regulatory directives. Partners with broader internal stakeholders to define architectural possibilities and futures. Works with business and development teams to recommend processes or system design enhancements. Ensures that systems are functionally appropriate, technically sound, and well-integrated.
+• Lead the design of end-to-end AI solution reference architectures, integrating data architecture components such as data pipelines, model training, deployment, and monitoring.
+• Apply innovative AI, data, and analytics technologies to enterprise platforms, aligning technical solutions with complex business and IT requirements.
+• Develop and maintain the technical roadmap for enterprise platform capabilities to realize the organization’s AI and data vision.
+• Support initiatives related to data acquisition, processing, and utilization through the enterprise AI and data platform.
+• Define infrastructure requirements for AI systems; evaluate and select tools, platforms, and frameworks to ensure scalability, performance, and security.
+• Serve as a technical thought leader in AI, machine learning, and data architecture, recognized for deep architectural expertise.
+• Provide strategic advice and guidance to business units on the implementation of AI and data solutions.
+• Ensure project deliverables align with target state architecture and challenge architectural decisions where necessary to uphold governance standards.
+• Identify opportunities to enhance data architecture across diverse and complex business functions and processes.
+• Build and maintain strong relationships with internal stakeholders across enterprise, technology, and business groups to ensure adherence to architecture standards.
+• Monitor industry trends and emerging technologies to inform strategic decisions and recommend relevant innovations.
+• Conduct research and proof-of-concept initiatives to evaluate emerging technologies and recommend their application.
+• Perform additional responsibilities as required to support enterprise goals.
+
+​
+
+Qualifications:
+• Bachelor’s or Master’s degree in Computer Science, Data Science, Engineering.
+• 15+ years of combined experience in software development, data engineering, architecture and Artificial Intelligence.
+• 5 years experience as a Data Architect
+• 2+ years experience delivering AI Architectures
+• 3 years experience specific to AWS Cloud
+• Hands on capability to code (at least with Python)
+• Experience with GenAI, LLMs, or reinforcement learning in production environments and AI solution delivery.
+• Proven experience architecting and deploying AI/ML solutions
+• Strong knowledge of machine learning frameworks (e.g., TensorFlow, PyTorch), cloud platforms (e.g., Azure, AWS, GCP), and MLOps tools. Preferred certifications in cloud architecture or AI/ML.
+• Proficiency in Python, SQL, and other relevant programming languages.
+• Familiarity with data architecture, APIs, and microservices.
+• Experience with implementing disruptive technologies in an organization;
+• Experience with Complex & high volume cloud implementations;
+• Possesses knowledge in financial industry business knowledge as well as knowledge of major data consumption use cases in financial services.
+• Exhibits knowledge of data architecture concepts and practices.
+• Demonstrates knowledge of architecture frameworks, methodologies, and tools.
+
+Salary:
+
+$94,600.00 - $176,000.00
+
+Pay Type:
+
+Salaried
+
+The above represents BMO Financial Group’s pay range and type.
+
+Salaries will vary based on factors such as location, skills, experience, education, and qualifications for the role, and may include a commission structure. Salaries for part-time roles will be pro-rated based on number of hours regularly worked. For commission roles, the salary listed above represents BMO Financial Group’s expected target for the first year in this position.
+
+BMO Financial Group’s total compensation package will vary based on the pay type of the position and may include performance-based incentives, discretionary bonuses, as well as other perks and rewards. BMO also offers health insurance, tuition reimbursement, accident and life insurance, and retirement savings plans. To view more details of our benefits, please visit: https://jobs.bmo.com/global/en/Total-Rewards
+
+About Us
+
+At BMO we are driven by a shared Purpose: Boldly Grow the Good in business and life. It calls on us to create lasting, positive change for our customers, our communities and our people. By working together, innovating and pushing boundaries, we transform lives and businesses, and power economic growth around the world.
+
+As a member of the BMO team you are valued, respected and heard, and you have more ways to grow and make an impact. We strive to help you make an impact from day one – for yourself and our customers. We’ll support you with the tools and resources you need to reach new milestones, as you help our customers reach theirs. From in-depth training and coaching, to manager support and network-building opportunities, we’ll help you gain valuable experience, and broaden your skillset.
+
+To find out more visit us at https://jobs.bmo.com/ca/en.
+
+BMO is committed to an inclusive, equitable and accessible workplace. By learning from each other’s differences, we gain strength through our people and our perspectives. Accommodations are available on request for candidates taking part in all aspects of the selection process. To request accommodation, please contact your recruiter.
+
+Note to Recruiters: BMO does not accept unsolicited resumes from any source other than directly from a candidate. Any unsolicited resumes sent to BMO, directly or indirectly, will be considered BMO property. BMO will not pay a fee for any placement resulting from the receipt of an unsolicited resume. A recruiting agency must first have a valid, written and fully executed agency agreement contract for service to submit resumes.",False,11 days ago,1778284800,2026-05-09T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=5oMxd4LF0Fl6KGOlAAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNMQrCQBAAsc0TbNxa9E4EQbSKjSiojX24HJvL6rkbbrfIU3yusRmYaab6zqp9XYw6ihQyXNgwZ0rIEaEusSfDaLCGq7SgGKYCwnAWSRnnx95s0IP3qtkltWAUXZSPF8ZWRv-SVv9otA8FhxwMm-1uM7qB03JxCvwG6eAmbAWnOTE8pUwmK3jcfyRJ_mSbAAAA&shmds=v1_ATWGeeMmJQlHZGuvmpuVA-mdUJTcOPlLWSIPMnm0Xe9wDbLkYg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=5oMxd4LF0Fl6KGOlAAAAAA%3D%3D",,,,,,{},,,
+6dz81eE8MukixdjOAAAAAA==,"Director, Product Management & Strategy – AI & Digital Transformation",Royal Bank of Canada,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmsDzx2Q-wc_1iR7QCl8gKvOjDPKHqDAFaCu-A&s=0,,RBC Careers,Full-time,['FULLTIME'],https://jobs.rbc.com/ca/en/job/R-0000170931/Director-Product-Management-Strategy-AI-Digital-Transformation,False,"[{'apply_link': 'https://jobs.rbc.com/ca/en/job/R-0000170931/Director-Product-Management-Strategy-AI-Digital-Transformation', 'is_direct': False, 'publisher': 'RBC Careers'}]","Job Description
+
+Director, Product Management & Strategy – AI & Digital Transformation
+
+What is the opportunity?
+
+As a Director, Product Management & Strategy within the RBC AI Group, you will define and drive the AI product strategy, enabling scalable and reusable AI solutions for large-scale AI & Digital Transformation (ADT) programs.
+In this role, you will be translating business ambitions into actionable strategic plans while serving as a trusted advisor to senior leadership on the most complex and highest-impact business challenges. You will have unique visibility across both multiple lines of business, positioning you to identify transformational opportunities, drive cross-platform collaboration, and accelerate new capability development anchored to a client-first approach. Working within a fast-paced, ambitious environment, this position provides the opportunity to influence enterprise-level decisions, drive transformation, and champion meaningful value for RBC clients.
+
+What will you do?
+
+Strategic Leadership & Vision
+• Provide proactive thought leadership and strategy support to the senior leadership of the AI group
+
+• Partner with business leaders to develop & articulate a comprehensive AI product strategy in line with the ADT programs
+
+• Lead the ADT strategic agenda, with multi-year strategic priorities aligned with enterprise objectives
+
+• Translate complex business dynamics, market insights & data into compelling narratives that inform strategic choices & capital allocation
+
+• Lead the discovery, intake & prioritization of reusable services & solutions for ADT programs.
+
+Executive Partnership
+• Serve as strategic advisor to influence and enable businesses on reusable services & solutions for ADT programs
+
+• Lead identification and quantification of major strategic product experience opportunities that drives product adoption and enhances revenue streams, cost savings or productivity benefits
+
+Solutions Liaison
+• Act as a liaison between the Business, technology partners & AI Group Solutions team
+
+• Cross-Functional Expertise: Ability to synchronize product, finance, and operational initiatives
+
+• Drive ADT product initiatives and cross-platform collaboration across RBC
+
+• Ensure strategies are aligned across businesses and embedded operationally
+
+What Do You Need to Succeed?
+
+Must-Have:
+• University Degree in Business, Finance, Computer Science, Software Engineering, or a related field
+
+• 5-10 years in in strategy, transformation, consulting, or financial services leadership
+
+• 3-5 years of experience in product leadership or strategic roles within financial services, fintech or tech
+
+• High professional maturity, emotional intelligence, comfort navigating ambiguity and conceptual thinker with ability to grasp broader issues quickly
+
+• Demonstrated ability to influence and communicate with senior executives (VP level and above)
+
+• Strong analytical capabilities with ability to synthesize complex information into clear strategic recommendations
+
+• Collaborative work style and excellent interpersonal skills with ability to maintain relationships at various level within the organization
+
+• Active listener, respectfully challenges, negotiates & influences outcomes, with a OneRBC approach
+
+• Strong written and oral presentation skills and presence; strong technical ability with PowerPoint, Excel and Word; and strong business & financial acumen
+
+• High level of initiative, motivation and inspires those around them
+
+• Proven experience building and leading strategy teams
+
+Nice-to-Have:
+• Deep knowledge of AI and/or experience in enhancing adoption of an AI product
+
+• Experience with digital transformation or business model innovation
+
+• Track record of delivering transformational initiatives
+
+• Prior experience in Financial Services or FinTech
+
+What's in It for You?
+
+We thrive on the challenge to be our best, progressive thinking to keep growing, and working together to deliver trusted advice to help our clients thrive and communities prosper. We care about each other, reaching our potential, making a difference to our communities, and achieving success that is mutual.
+• Opportunity to drive strategic impact at the enterprise level
+
+• Work on ambitious, transformational initiatives delivering significant LOB and enterprise value
+
+• Exposure to Group Executive leadership and influence on enterprise strategy
+
+• Career advancement and skill development in a progressive, high-performing organization
+
+#TECHPJ
+#Ll-POST
+
+Job Skills
+Business Case Design, Critical Thinking, Knowledge Organization, Product Development Lifecycle, Product Development Methodology, Product Manufacturing, Product Services, Product Testing, Results-Oriented, Waterfall Model
+
+Additional Job Details
+Address:
+
+RBC WATERPARK PLACE, 88 QUEENS QUAY W:TORONTOCity:
+
+TorontoCountry:
+
+CanadaWork hours/week:
+
+37.5Employment Type:
+
+Full timePlatform:
+
+TECHNOLOGY AND OPERATIONSJob Type:
+
+RegularPay Type:
+
+SalariedPosted Date:
+
+2026-05-12Application Deadline:
+
+2026-06-05Note: Applications will be accepted until 11:59 PM on the day prior to the application deadline date above
+
+Our Employment Opportunities
+
+At RBC, we are guided by living shared values of Client First, Integrity, Collaboration, Respect and Excellence and winning together as One RBC. We believe an inclusive workplace that has diverse perspectives is core to our continued growth as one of the largest and most successful banks in the world. Maintaining a workplace where our employees feel supported to perform at their best, effectively collaborate, drive innovation, and grow professionally helps to bring our Purpose to life and create value for our clients and communities. RBC strives to deliver this through policies and programs intended to foster a workplace based on respect, belonging and opportunity for all.
+
+Join our Talent Community
+
+Stay in-the-know about great career opportunities at RBC. Sign up and get customized info on our latest jobs, career tips and Recruitment events that matter to you.
+
+Expand your limits and create a new future together at RBC. Find out how we use our passion and drive to enhance the well-being of our clients and communities at jobs.rbc.com.
+
+RBC is presently inviting candidates to apply for this existing vacancy. Applying to this posting allows you to express your interest in this current career opportunity at RBC. Qualified applicants may be contacted to review their resume in more detail.",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=6dz81eE8MukixdjOAAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOOwoCQRBEMfUIRg2CgeiuCCYa-QFR8IMaK73jODu62730tKCZd_BGHsWTOCYFVTx4Vf_U6seZF2uUpQNb4fPdKKyQ0NnSkkIL9iqo1j3h-3rDeBGXmXdesYCDIIULS4nqmaALS84gWBSTQ-xzZlfYxihXrcIwTUMoEhc0wiYxXKZMNuNHeuUs_OMUchRbFVF26g96j6Qi127u-BlNE6Qb8AWm8dgZwRMcWJiUO7BZ_wBz8HbixQAAAA&shmds=v1_ATWGeePHpwKY61NKsduZmV1hzzZYFyDhRdp8x8UeVQeYrRUcIA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=6dz81eE8MukixdjOAAAAAA%3D%3D",,,,,,{},,,
+eoAoTyepJLoTKrG3AAAAAA==,Embedded AI Architect at MDA Montreal,MDA Space,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYpvo73b_jwJT1H_9agLsMzWD5zxqKA1nAo10o&s=0,,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/embedded-ai-architect-at-mda-montreal-mda-space-chaudiere-nord-saint-joseph-de-beauce-qc-canada--jobgoal-24997_462ED9BDCB7F3AC21DB353418B5AB763,False,"[{'apply_link': 'https://bebee.com/ca/jobs/embedded-ai-architect-at-mda-montreal-mda-space-chaudiere-nord-saint-joseph-de-beauce-qc-canada--jobgoal-24997_462ED9BDCB7F3AC21DB353418B5AB763', 'is_direct': False, 'publisher': 'BeBee'}]","Lead the development of innovative AI/ML solutions for satellite systems at MDA's Montreal office. As an Embedded Artificial Intelligence Architect, you will focus on groundbreaking AI capabilities from ground prototypes to on-board deployment.
+
+In this key role, you'll spearhead the design and delivery of embedded AI applications for advanced satellite systems. Your responsibilities include mentoring teams, conducting feasibility studies, and defining deployment roadmaps for mission-critical capabilities. Collaborate closely with AI/ML experts and contribute to transformative telecommunications solutions through insightful problem-solving and technical leadership.
+
+Key Responsibilities:
+• Lead development of AI solutions in satellite systems
+• Mentor and provide technical leadership across AI/ML lifecycle
+• Conduct feasibility studies for telecommunication satellite applications
+• Define roadmaps prioritizing deployment based on impact
+• Design simulators to generate training data
+
+Requirements:
+• Scientific degree in AI/ML or related field
+• 10+ years in embedded software development
+• Hands-on ML model deployment experience
+• Strong Python and production-level C/C++ skills
+• Effective communicator in English and/or French
+
+Drive forward embedded AI innovation with MDA by leveraging your expertise in AI/ML and software development.",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,Quebec,Québec City,Quebec,CA,46.8130816,-71.20745959999999,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=eoAoTyepJLoTKrG3AAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNsQrCMBCAYVy7ujndLNiI4KIuAUUUOogPUC7p0aSkudA7oY_hI2uXf_rgr76r6nIbHXUddWAfYCcfopJXQIXmaqHhrBNhgh082YEQ_gVwhjtzn2hzDqpFTsaIpLoXRY2-9jwazuR4NgM7WdJKwIlKQqX2cNzPdcn9dr0c3gU9Qczw-pAj_wNxkMEpkwAAAA&shmds=v1_ATWGeePsigsnXBl8DptBVDlccOSNBMGe_2GYjzU7o5Huq4DfvA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=eoAoTyepJLoTKrG3AAAAAA%3D%3D",,,,,,{},,,
+X1EwjFJoiWQCg5iNAAAAAA==,Artificial Intelligence (AI) Tutor,"Varsity Tutors, a Nerdy Company",https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVO3SobC5R5n7h4JaOD4EISb8GtQ4LTCn6DqlN&s=0,https://www.varsitytutors.com,LinkedIn,Part-time,['PARTTIME'],https://ca.linkedin.com/jobs/view/artificial-intelligence-ai-tutor-at-varsity-tutors-a-nerdy-company-4404046018,False,"[{'apply_link': 'https://ca.linkedin.com/jobs/view/artificial-intelligence-ai-tutor-at-varsity-tutors-a-nerdy-company-4404046018', 'is_direct': False, 'publisher': 'LinkedIn'}]","About The Job
+
+The Varsity Tutors Live Learning Platform has thousands of students looking for online Artificial Intelligence (AI) tutors nationally. As a tutor on the Varsity Tutors Platform, you'll have the flexibility to set your own schedule, earn competitive rates, and make a real impact on students' academic success and understanding. All from the comfort of your home.
+
+Why Join Our Platform?
+
+• Earn incrementally higher pay for each session with the same student, reaching up to $40/hour.
+• Get paid up to twice per week, ensuring fast and reliable compensation for the tutoring sessions you conduct and invoice.
+• Set your own hours and tutor as much as you'd like.
+• Tutor remotely using our purpose-built Live Learning Platform. No commuting required.
+• Get matched with students best-suited to your teaching style and expertise.
+• Our AI-powered Tutor Copilot enhances your sessions with real-time instructional support, lesson generation, and engagement features, helping you save prep time and focus on impactful teaching.
+• We handle the logistics—you just invoice for your tutoring sessions, and we take care of payments.
+
+What We Look For In a Artificial Intelligence (AI) Tutor
+
+• Advanced Subject Mastery: Deep knowledge of machine learning algorithms, neural networks, natural language processing, computer vision, reinforcement learning, search algorithms, knowledge representation, probabilistic reasoning, and ethical AI considerations. Ability to explain supervised and unsupervised learning, backpropagation, transformer architecture, and bias in AI systems while preparing students for AI research, data science, and technology innovation careers.
+• Conceptual Teaching & Problem-Solving: Skilled at breaking down neural network architectures, training optimization, and model evaluation techniques. Guides students through implementing classification and regression models, designing neural networks, preprocessing data, evaluating model performance with metrics, and interpreting AI system outputs. Emphasizes connecting mathematical foundations to practical implementation and applies AI to healthcare, autonomous systems, and creative applications.
+• Curriculum Awareness & Adaptive Instruction: Familiar with AI curricula at introductory and intermediate levels and common challenges such as understanding gradient descent mathematics, selecting appropriate model architectures, and interpreting overfitting. Adapts instruction using Python with TensorFlow or PyTorch, interactive notebooks, and real-world data projects to support students from AI concepts introduction through intermediate machine learning implementation.
+• Effective Teaching Methods: Ability to identify concepts students commonly struggle with, explain material using multiple approaches, and adapt instruction to meet individual learning needs and styles.
+• Strong communication skills and a friendly, engaging teaching style.
+• Ability to adapt to different learning styles and student needs.
+
+Ways To Connect With Students
+
+• 1-on-1 Online Tutoring - Provide personalized instruction to individual students.
+• Instant Tutoring - Accept on-demand tutoring requests whenever you're available.
+
+About Varsity Tutors And 1-on-1 Online Tutoring
+
+Our mission is to transform the way people learn by leveraging advanced technology, AI, and the latest in learning science to create personalized learning experiences. Through 1-on-1 Online Tutoring, students receive customized instruction that helps them achieve their learning goals. Our platform is designed to match students with the right tutors, fostering better outcomes and a passion for learning.
+
+Please note: Varsity Tutors does not contract in: Alaska, California, Colorado, Delaware, Hawaii, Maine, New Hampshire, North Dakota, Vermont, West Virginia or Puerto Rico.",False,1 month ago,1776643200,2026-04-20T00:00:00.000Z,"Vaughan, ON",Vaughan,Ontario,CA,43.826228099999994,-79.5561668,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=X1EwjFJoiWQCg5iNAAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_yXNsQ6CMBAA0LjyCU43qkEwJg7qRBwMDrgYVnLUs9SUHukdCfyRn2mMy1tf8lkkxyKqeznj0EMZlLx3loIhWBXlGh6jcoQt3LgFIYymAw5wZbaeludOdZBTnov4zIqiOpMZ7nMO1PKUv7mVH410GGnwqNTsD7spG4LdZDVGcTr_C0kBoaL4nOHC_YBhBhegxtF2GFK4V182saF0qwAAAA&shmds=v1_ATWGeeP4R3uODuM0WCRZ7kC1kQ0GgjycsCKBacBzeZJ0DfUwhA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=X1EwjFJoiWQCg5iNAAAAAA%3D%3D",,,,,,{},,,
+D7IhyTxx-E6lJGpIAAAAAA==,"Senior ML Engineer, AI Governance – Remote Canada",Optro,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXDx2Tyn3yuOn9tg3JdZRVG_j-j6zpXoSiXAJ&s=0,https://optro.ai,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/senior-ml-engineer-ai-governance-remote-canada-optro-calgary-ab-canada--jobgoal-22543_3a9cc2c1b0ccf300d00867ecaac4f27d-249749,False,"[{'apply_link': 'https://bebee.com/ca/jobs/senior-ml-engineer-ai-governance-remote-canada-optro-calgary-ab-canada--jobgoal-22543_3a9cc2c1b0ccf300d00867ecaac4f27d-249749', 'is_direct': False, 'publisher': 'BeBee'}]","A leading SaaS company based in Canada is seeking a Machine Learning Engineer to innovate risk management solutions using cutting-edge AI techniques.
+
+Your role involves developing product features, applying machine learning methods, and collaborating with cross-functional teams to enhance the AuditBoard portfolio. Candidates should have a degree in a related field and 4+ years of experience in ML. Join a growing team that values creativity and teamwork in a dynamic work environment.",False,6 days ago,1778716800,2026-05-14T00:00:00.000Z,"Calgary, AB",Calgary,Alberta,CA,51.044733099999995,-114.0718831,,,"https://www.google.com/search?ibp=htl;jobs&q&htidocid=D7IhyTxx-E6lJGpIAAAAAA%3D%3D&hl=en-CA&shem=epsd1,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOMQoCMRAAsb3aympr0YsINlqpiHgogj7g2ItLEsnthiTI2fkHH-DffIlnM9XATPEZFNWV2EmE0xF2bBwTxQmsD7CXB0VG1gTf1xsu1Eom2CLjDWEKlTSQCKO2INzLYjyNVjbnkJZKpeRLkzJmp0strRKmRjp1lyb9USeLkYLHTPV8MevKwGY8PIccBRz3EW8wPvuNzQ9o8GHbogAAAA&shmds=v1_ATWGeeMyBITc08rj-5-x8_ObR1tDKvaCHqZnUOxtn434tl2muA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=D7IhyTxx-E6lJGpIAAAAAA%3D%3D",,,,,,{},,,
+Uvqh-M5eqfNz2-BSAAAAAA==,ML Data Engineer,Royal Bank of Canada,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmsDzx2Q-wc_1iR7QCl8gKvOjDPKHqDAFaCu-A&s=0,,RBC Careers,Full-time,['FULLTIME'],https://jobs.rbc.com/ca/en/job/R-0000157986/ML-Data-Engineer,False,"[{'apply_link': 'https://jobs.rbc.com/ca/en/job/R-0000157986/ML-Data-Engineer', 'is_direct': False, 'publisher': 'RBC Careers'}]","Job Description
+
+What's the opportunity?
+
+We’re looking for a Machine Learning Data Engineer to enable data and ML capabilities that directly power the bank’s flagship Next Best Action (NBA) initiative, projected to deliver an incremental $160MM+ annual run-rate by FY28. As an ML Data Engineer, you will build and scale an AI-driven decisioning system that delivers hyper-personalized client experiences, ensuring the right action, at the right time, through the right channel, with the right offer, content, and placement. You will build AI agents that accelerate action creation and automate decisioning at scale, driving meaningful impact across millions of client interactions. You will work end to end across the ML lifecycle, from data and features through to deployed, monitored, and continuously improving models, bridging cutting-edge research and production systems to deliver measurable, AI-driven value.
+
+Your responsibilities include:
+• Designing, building, and maintaining scalable data pipelines and feature stores that support end-to-end ML workflows for the NBA platform
+• Collaborating with ML researchers and software engineers to productionize models and translate experimental approaches into reliable, high-performing systems
+• Developing and deploying AI agents that automate workflow, reduce manual processes, and accelerate business process
+• Owning the ML data lifecycle, from data ingestion, validation, and feature engineering to deployment, monitoring, and continuous optimization
+• Ensuring data quality, reliability, governance, and performance at scale while enabling hyper-personalized, real-time client experiences
+
+You're our ideal candidate if you have:
+• Bachelor’s degree in Computer Science, Software Engineering, or a related field, with 3+ years of professional experience as a data or software engineer
+• Proficiency in Python and Java, with hands-on experience using modern data and ML tooling (e.g., Spark, Airflow, feature stores, ML platforms)
+• Strong foundation in both data and software engineering, designing and building scalable data pipelines and ML-ready datasets in hybrid environments spanning on-prem infrastructure and public cloud platforms (i.e. AWS)
+• A solid understanding of the ML data lifecycle, including feature engineering, model integration, deployment support, and monitoring
+• Experience building or enabling AI-driven automation (e.g., agents, workflow orchestration, or decision engines) that reduces manual effort
+• Experience with DevOps and CI/CD tooling such as Jenkins and GitHub Actions to automate testing, builds, and deployments for data and ML pipelines
+• Excellent collaboration and communication skills, with the ability to translate complex technical ideas into practical, business-focused solutions
+
+What's in it for you?
+• Become part of a team that thinks progressively and works collaboratively. We care about seeing each other reach full potential.
+• A comprehensive Total Rewards Program including bonuses and flexible benefits, competitive compensation, commissions, and stock options where applicable.
+• Leaders who support your development through coaching and managing opportunities.
+• Ability to make a difference and lasting impact from a local-to-global scale.
+
+About RBC Borealis
+
+RBC Borealis is the driving force behind Royal Bank of Canada’s AI and data innovation. As part of Canada’s largest financial institution, we bring together a team of architects, engineers, scientists, and product experts on a mission to revolutionize finance through world-class research, solutions, and a resilient data platform. With locations across Toronto, Waterloo, Montreal, Calgary, and Vancouver, we’re at the forefront of AI research and platform development. With a focus on cutting-edge research in areas like time series forecasting, causal machine learning, and responsible AI, we are seamlessly integrating AI research and data engineering, to solve critical challenges in the financial industry. We are building intelligent, and scalable, data-driven solutions that will help communities thrive and drive innovation for our customers across the bank.
+
+Inclusion and Equal Opportunity Employment
+
+RBC is an equal opportunity employer committed to diversity and inclusion. We are pleased to consider all qualified applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, protected veterans status, Aboriginal/Native American status or any other legally-protected factors. Disability-related accommodations during the application process are available upon request.
+
+Job Skills
+AI Agents, AI Ops, Amazon SageMaker, Apache Hadoop, Apache Kafka, Apache Spark, AWS Cloud Computing, AWS Glue, Business Requirements Analysis, Collaboration, Database Development, Data Engineering, Data Pipelines, Data Warehousing (DW), DevOps, End-to-End Testing, ETL Processing, Feature Engineering, Generative AI, Hybrid Cloud Computing, Snowflake (Platform), Software Requirements Analysis
+
+Additional Job Details
+
+Address:
+
+RBC WATERPARK PLACE, 88 QUEENS QUAY W:TORONTO
+
+City:
+
+Toronto
+
+Country:
+
+Canada
+
+Work hours/week:
+
+37.5
+
+Employment Type:
+
+Full time
+
+Platform:
+
+TECHNOLOGY AND OPERATIONS
+
+Job Type:
+
+Regular
+
+Pay Type:
+
+Salaried
+
+Posted Date:
+
+2026-02-11
+
+Application Deadline:
+
+2026-10-05
+
+Note: Applications will be accepted until 11:59 PM on the day prior to the application deadline date above
+
+Our Employment Opportunities
+
+At RBC, we are guided by living shared values of Client First, Integrity, Collaboration, Respect and Excellence and winning together as One RBC. We believe an inclusive workplace that has diverse perspectives is core to our continued growth as one of the largest and most successful banks in the world. Maintaining a workplace where our employees feel supported to perform at their best, effectively collaborate, drive innovation, and grow professionally helps to bring our Purpose to life and create value for our clients and communities. RBC strives to deliver this through policies and programs intended to foster a workplace based on respect, belonging and opportunity for all.
+
+Join our Talent Community
+
+Stay in-the-know about great career opportunities at RBC. Sign up and get customized info on our latest jobs, career tips and Recruitment events that matter to you.
+
+Expand your limits and create a new future together at RBC. Find out how we use our passion and drive to enhance the well-being of our clients and communities at jobs.rbc.com.
+
+RBC is presently inviting candidates to apply for this existing vacancy. Applying to this posting allows you to express your interest in this current career opportunity at RBC. Qualified applicants may be contacted to review their resume in more detail.",False,9 days ago,1778457600,2026-05-11T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=Uvqh-M5eqfNz2-BSAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXEOwrCQBAAUGxzBKsBC0F0VwQb7fwgiB8Q-zBJxk10nVl2pohn8NLiK17xHRTj8wl2aAh7Dh0TZZjBUSpQwly3IAwHkRBpuG7Nkq68V40uqKF1tavl7YWpkt4_pdJ_pbaYKUU0KhfLee8Sh8noJh-MsEF-gTxgi4wNQsdwlyxsMoXr5Qe5pHmsjgAAAA&shmds=v1_ATWGeePU3CumnIHC83KC6ejl0d5vJucJAQg7EVNzYKlXR2B9Og&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=Uvqh-M5eqfNz2-BSAAAAAA%3D%3D,,,,,,{},,,
+fnv7URy6n57AGNAOAAAAAA==,"AI ML Engineer (SG25, 26, 27, 28, 29)",Y-Axis,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfpcdTbND0LwWhCk0K5rpBkCilZsRlWUJ4Ekc&s=0,https://www.y-axis.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/ai-ml-engineer-sg25-26-27-28-29-y-axis-winnipeg-mb-canada--jobgoal-24997_522A5B5D1D1A09266C16A09C0C7822A3,False,"[{'apply_link': 'https://bebee.com/ca/jobs/ai-ml-engineer-sg25-26-27-28-29-y-axis-winnipeg-mb-canada--jobgoal-24997_522A5B5D1D1A09266C16A09C0C7822A3', 'is_direct': False, 'publisher': 'BeBee'}]","Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by inclusion, talented peers, comprehensive benefits and career development opportunities.
+
+Come make an impact on the communities we serve as you help us advance health optimization on a global scale. Join us to start Caring. Connecting. Growing together.
+
+Primary Responsibilities
+
+Design, develop, and maintain high‑performance ETL solutions using SSIS to support business intelligence and data warehousing needs.
+
+Write advanced and optimized T‑SQL queries for data extraction, transformation, and loading.
+
+Troubleshoot and enhance existing SSIS packages to ensure reliability and performance.
+
+Monitor and support ETL processes across QA, UAT, and Production environments, including job monitoring and issue resolution.
+
+Integrate data from diverse sources such as RDBMS, APIs, FTPs, and cloud storage in various formats (CSV, JSON, XML, Parquet, etc.).
+
+Utilize C# and Regex for complex data transformation tasks within ETL workflows.
+
+Analyze business requirements and deliver fully automated, scalable ETL solutions.
+
+Contribute to the development and refinement of ETL best practices, including data quality and cleansing standards.
+
+Provide accurate work estimates and deliver solutions in alignment with project timelines.
+
+Communicate effectively with the Data Engineering Manager regarding project status, risks, and dependencies.
+
+Collaborate with cross‑functional teams to ensure data solutions meet business needs.
+
+Foster a culture of knowledge sharing and continuous improvement within the team.
+
+Required Qualifications
+
+Hands‑on experience with Snowflake, Databricks, or Kafka.
+
+Experience in data engineering, with solid expertise in SSMS, SSIS, and SQL.
+
+Experience in business/data analysis.
+
+Experience with version control systems like TFS or GitHub.
+
+Solid understanding of database design, lifecycle management, and performance tuning.
+
+Proven ability to build and maintain DevOps pipelines for data workflows.
+
+Proven excellent communication skills and ability to work across teams and stakeholders.
+
+At UnitedHealth Group, our mission is to help people live healthier lives and make the health system work better for everyone. We believe everyone—of every race, gender, sexuality, age, location and income—deserves the opportunity to live their healthiest life. We are committed to mitigating our impact on the environment and enabling and delivering equitable care that addresses health disparities and improves health outcomes - an enterprise priority reflected in our mission.",False,5 days ago,1778803200,2026-05-15T00:00:00.000Z,"Winnipeg, MB",Winnipeg,Manitoba,CA,49.8954221,-97.1385145,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=fnv7URy6n57AGNAOAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXEvQ6CMBAA4LjyAA5ON6oBakjwf8HEEI1MDsSJlOZSavCu4TrwHr6wOHxf9J1F5-IG1QOuZB0hDrB8llkeQ7ad7Cb7yWEFCdy5BUE9mA6YoGS2PS5OXQhejkqJ9KmVoIMzqeGPYsKWR_XmVv410ukBfa8DNlm-GVNPdj1_JcXoBBxB7YicRxtDdfkBcfz1jpYAAAA&shmds=v1_ATWGeeNh_6j1TgHerUDHGMqh-f83oH-r682ItemVEJVVwXwD0A&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=fnv7URy6n57AGNAOAAAAAA%3D%3D,,,,,,{},,,
+4T7br134bGfD72jNAAAAAA==,AI Enablement Developer Advocate at BDO,BDO Canada,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOQKYInzrFaHng-5Mhfc00U5ZbC_iNZUViPP27&s=0,,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/ai-enablement-developer-advocate-at-bdo-bdo-canada-oakville-on-canada--jobgoal-24997_C71DCFDE99935D7E3378EF4D4B98814A,False,"[{'apply_link': 'https://bebee.com/ca/jobs/ai-enablement-developer-advocate-at-bdo-bdo-canada-oakville-on-canada--jobgoal-24997_C71DCFDE99935D7E3378EF4D4B98814A', 'is_direct': False, 'publisher': 'BeBee'}]","Become an AI Enablement Developer Advocate with BDO, promoting AI adoption and technical collaboration. This hybrid role combines remote work with in-office synergy to drive AI initiatives.
+
+As a Developer Advocate at BDO, you will foster relationships between the AI Studio and Service Line Labs, ensuring technical empowerment and community building for AI developers. With responsibilities centered on training, mentoring, and facilitating AI tool integration, this role is critical for advancing BDO's AI capabilities. A strong background in software development and advocacy is essential.
+
+Key Responsibilities:
+• Act as a liaison for AI Studio initiatives
+• Promote AI tools through engaging training sessions
+• Assist in transitioning AI solutions from sandbox to production
+• Design programs for AI literacy and development
+• Guide teams in identifying AI-enhanced workflows
+
+Requirements:
+• 5–6 years in software development and API integration
+• 3–4 years in developer advocacy or community building
+• Familiarity with AI tools like Microsoft Copilot Studio
+• Strong ability to communicate technical information
+• Passionate about responsible AI use in professional services
+
+Support BDO’s mission of innovation and collaboration as you advocate for AI development and adoption.",False,4 days ago,1778889600,2026-05-16T00:00:00.000Z,"Oakville, ON",Oakville,Ontario,CA,43.4507462,-79.7288743,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=4T7br134bGfD72jNAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMwQqCQBAAULr6CZ7mHOVG0KUgsIyoQ36CzK6Da407izuIv9Lflpd3fNl3lZ3LB9wCWqaBgkJFE7FEGqFsJ3GoBKhwqWrYwlMsJMLReZAAd5GOKT951ZiOxqTERZcUtXeFk8FIICuzeYtNC03yOFLk_9jsD7u5iKFb50t8xYAtQh-gxs_UM9MG6tcPmvlS-ZwAAAA&shmds=v1_ATWGeeOxlBIMgdT029QiUNLbbnUq8lk1MAjJIdNCfFb9LMXpHA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=4T7br134bGfD72jNAAAAAA%3D%3D,,,,,,{},,,
+942rQ-7IRDnFdnUvAAAAAA==,Gen AI Developr With AWS,Quantum World Technologies Inc.,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsQ4QQa7kv786x8eRV-wQUKFOVC_DPwcQsNtr&s=0,https://www.quantumworldit.com,BeBee,Contractor,['CONTRACTOR'],https://bebee.com/ca/jobs/gen-ai-developr-with-aws-quantum-world-technologies-inc-toronto-ontario--theirstack-685856359,False,"[{'apply_link': 'https://bebee.com/ca/jobs/gen-ai-developr-with-aws-quantum-world-technologies-inc-toronto-ontario--theirstack-685856359', 'is_direct': False, 'publisher': 'BeBee'}]","Job Title: Gen AI Developr With AWS
+
+Location: Toronto-Hybrid 2 days in office
+
+Job Type: Longterm Contract
+
+5+ years of professional experience in software development.
+
+Strong proficiency in Python (FastAPI, Flask, asyncio, pandas, etc.).
+
+Hands-on experience with AWS services related to AI/ML and serverless architectures.
+
+Strong understanding of LLMs, transformers, embeddings, vector databases, and GenAI concepts.
+
+Experience with Git, containerization (Docker), and orchestration (Kubernetes/EKS is a bonus).
+
+Familiarity with security, compliance, and responsible AI guidelines.",False,4 days ago,1778889600,2026-05-16T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=942rQ-7IRDnFdnUvAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXEsQrCMBAAUFz7CU43iyYiuOhUEEodFLHQsaTxSCLpXcil0q_xW8U3vOq7qnSDBHULF_xg5JShD8VD3T9hB1ceQdBk64EJGmYXcX32pSQ5aS0SlZNiSrDK8qSZcORFv3mUf4N4kzFFU3A4HPeLSuQ26jEbKvMEPef4gg6tJ47sAgq0ZBUEgo4zU-Et3G8_2AV79KEAAAA&shmds=v1_ATWGeeNrQ0JsA7YGJ5qDhkNX_6omX79MdihjRORjdcJS7Et7WQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=942rQ-7IRDnFdnUvAAAAAA%3D%3D,,,,,,{},,,
+Egu0xfWBT0utNmOHAAAAAA==,Senior AI Operations Executive,MediSolution,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZcedD_3dF93ViStyNIWTQoxuaUqovO_AbE5a&s=0,https://www.medisolution.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/senior-ai-operations-executive-medisolution-ahuntsic-north-qc-canada--jobgoal-24997_03B666193DF63BCFDB5C280767935DA3,False,"[{'apply_link': 'https://bebee.com/ca/jobs/senior-ai-operations-executive-medisolution-ahuntsic-north-qc-canada--jobgoal-24997_03B666193DF63BCFDB5C280767935DA3', 'is_direct': False, 'publisher': 'BeBee'}]","Drive AI innovation at Harris as the Associate Vice President of AI Operations in Ottawa, focusing on the Revenue Cycle Management sector. This full-time role is vital for shaping the future of AI deployment.
+
+As AVP, you will spearhead the selection and implementation of an AI orchestration platform that enhances operational efficiency across various functions. Your experience will ensure the seamless integration of AI capabilities into product development while fostering a culture of innovation across teams. Leading cross-functional collaboration will be key to your success in this role.
+
+Key Responsibilities:
+• Lead selection and implementation of AI solutions
+• Develop standardized AI operations for all teams
+• Generate AI-driven improvements in product lifecycle
+• Operationalize AI workflows for better delivery
+• Use AI for enhanced demand generation and sales
+
+Requirements:
+• At least 15 years in technology or operations
+• Proven experience in AI platform implementation
+• Expertise in product management and development roles
+• Demonstrated leadership in transformation initiatives
+• Preferred experience in healthcare and enterprise SaaS
+
+Join Harris to play a critical role in AI operations and product innovation.",False,5 days ago,1778803200,2026-05-15T00:00:00.000Z,Quebec,Québec City,Quebec,CA,46.8130816,-71.20745959999999,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=Egu0xfWBT0utNmOHAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNMQoCMRBAUWz3ABZWUwsmImyjlYWIgojsAZYkDtlIzITMRHIID63b_O7xu--i6wdMgQocL3DPWIwESgynhq5K-CBs4EoWGE1xE1CCM5GPuDpMIpn3WjNH5Vn-zilHb00JLTX9IstzRp5MwRyN4Ljrt03l5NfLGz7DQLHOMwgJHhUtuh_P1hLgjwAAAA&shmds=v1_ATWGeeP60VSk96VN3f9RGw1NG2ge-c1CwuKjTusPaQGbLmU5Ow&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=Egu0xfWBT0utNmOHAAAAAA%3D%3D,,,,,,{},,,
+pcxlzmo49V06OKv6AAAAAA==,Senior Machine Learning Researcher Role,0000050007 Royal Bank of Canada,,,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/senior-machine-learning-researcher-role-0000050007-royal-bank-of-canada-calgary-ab-canada--jobgoal-24997_5321A670A96FABE549AE4AEA38D8EC8D,False,"[{'apply_link': 'https://bebee.com/ca/jobs/senior-machine-learning-researcher-role-0000050007-royal-bank-of-canada-calgary-ab-canada--jobgoal-24997_5321A670A96FABE549AE4AEA38D8EC8D', 'is_direct': False, 'publisher': 'BeBee'}]","Join RBC Borealis as a Senior Machine Learning Researcher and use vast datasets for innovative AI advancements. Collaborate on challenging problems in a supportive and curious research environment.
+
+In this pivotal role, you'll develop algorithms and AI solutions that impact banking experiences. RBC Borealis values a collaborative approach and encourages researchers to publish their work in prestigious journals. You'll have access to extensive datasets and the opportunity to guide your research independently.
+
+Key Responsibilities:
+• Create novel AI solutions for product advancements
+• Produce original research advancing machine learning
+• Work with developers to implement research findings
+• Analyze organizational needs for algorithm design
+• Stay at the forefront of emerging AI technologies
+
+Requirements:
+• PhD in AI with a strong research background
+• Proven ability to manage independent research
+• Fluency in Python and key Deep Learning libraries
+• Excitement about solving complex data problems
+• Experience with advanced machine learning methodologies
+
+Be at the forefront of AI research and create lasting change with RBC Borealis.",False,3 days ago,1778976000,2026-05-17T00:00:00.000Z,"Calgary, AB",Calgary,Alberta,CA,51.044733099999995,-114.0718831,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=pcxlzmo49V06OKv6AAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_yWNQQrCMBBFcdsjuJq1aFKEIigI1oUguqkHKNM6JtE4U5Is6qG8oyl-eJ_H3_ziOyv2N2InAa7YW8cEF8LAjg00FLP2lgI04glWcJYO_hsIw0nEeJrvbEpD3Godo1cmJkyuV728tTB1MuqndHGqNloMNHhM1K6rclQDm4Uqp1SZTT75oIca-QXygCMy3hEcZ_MGw2cJh_oHhc7nZLAAAAA&shmds=v1_ATWGeeOEkK_EPmda03RaaKl969cXZMRrbg5WJ92VPOxFxJiguQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=pcxlzmo49V06OKv6AAAAAA%3D%3D,,,,,,{},,,
+4vUm6DF1txi0_pr5AAAAAA==,Co-op AI Developer Position at CGI,CGI,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZcedD_3dF93ViStyNIWTQoxuaUqovO_AbE5a&s=0,,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/co-op-ai-developer-position-at-cgi-cgi-winnipeg--talent-4609900ebfaa,False,"[{'apply_link': 'https://bebee.com/ca/jobs/co-op-ai-developer-position-at-cgi-cgi-winnipeg--talent-4609900ebfaa', 'is_direct': False, 'publisher': 'BeBee'}]","Elevate your skills as a Co-op AI Developer at CGI, focusing on building practical AI solutions to enhance efficiency and reduce manual tasks. Collaborate with cross-functional teams and industry leaders to develop usable tools for real business needs.
+
+CGI is searching for a Co-op AI Developer to work from September 2026 for an 8-month term. This role involves working with developers, data scientists, and product managers, helping define AI use cases and automating processes. You'll gain hands-on experience in AI/ML, create prototypes, and support integration of solutions.
+
+Key Responsibilities:
+• Collaborate with teams to understand business needs
+• Define AI use cases and technical requirements
+• Automate manual processes effectively
+• Build AI solutions using AI/ML and workflow tools
+• Document solutions for team adoption
+
+Requirements:
+• Student in Computer Science, AI, or related field
+• Basic knowledge of Python or similar languages
+• Understanding of AI/ML concepts and LLMs
+• Interest in solving business challenges
+• Strong communication skills for teamwork
+
+Develop your AI expertise at CGI and contribute to impactful solutions.",False,6 days ago,1778716800,2026-05-14T00:00:00.000Z,"Winnipeg, MB",Winnipeg,Manitoba,CA,49.8954221,-97.1385145,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=4vUm6DF1txi0_pr5AAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBCAYVy7ujndLDYRwUGdtEKpILg5liQcSSTmQu6QvoTvrF3-4Rv-5rtoDh21VOA8wBU_mKhghQdxlEgZjEDXD9DCjSwwmuoC_Lkn8glXpyBS-Kg1c1KexUh0ytFbU0ZLk36R5TkjB1OxJCM47vbbSZXs18t5HDM8Y86xoN_A_fIDx3uaM5AAAAA&shmds=v1_ATWGeeNcXbaOUOewvBw9bwsbtLvwtaea1yIvAchp3AMMGhU3Hg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=4vUm6DF1txi0_pr5AAAAAA%3D%3D,,,,,,{},,,
+htuaCe1rccbYntgIAAAAAA==,Compliance Officer for AI Research,Mercor,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwMixwhsL9nwJ27QDQF5vFd8oE8c_SeS6B0Jqh&s=0,https://www.mercor.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/compliance-officer-for-ai-research-mercor-toronto-on-canada--jobgoal-22543_6b65c166c7948b4dd777053740f7b112-1561902-v,False,"[{'apply_link': 'https://bebee.com/ca/jobs/compliance-officer-for-ai-research-mercor-toronto-on-canada--jobgoal-22543_6b65c166c7948b4dd777053740f7b112-1561902-v', 'is_direct': False, 'publisher': 'BeBee'}]","Drive compliance in AI research as a Compliance Officer with Mercor. This flexible remote contract role offers the opportunity to influence standards while working with cutting-edge technology. Mercor is looking for an experienced Compliance Officer for short-term, remote work lasting 3–4 weeks.
+
+In this role, you'll create essential tasks for compliance while addressing real issues in machine learning systems. Expect to work independently and handle 15–30+ hours weekly on your own schedule, contributing to compliance and enhancing AI research initiatives. Key Responsibilities:
+
+• Develop tasks and deliverables for compliance needs
+• Solve real issues within machine learning technology
+• Provide expertise in AI research advancements
+• Operate independently while managing your time
+• Ensure adherence to industry regulations Requirements:
+• Minimum 4 years in compliance or a related field
+• Strong written communication skills
+• High proficiency in grammar and spelling
+• Capability to work autonomously
+• Immediate start required for this role Join Mercor and help shape the compliance landscape in AI technology.",False,4 days ago,1778889600,2026-05-16T00:00:00.000Z,"Toronto, ON",Toronto,Ontario,CA,43.6548253,-79.388447,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=htuaCe1rccbYntgIAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y3NsQrCMBRGYVy7uzjdWbQRwUE7iYMoaEHcSxJum0iaP-Rm6Fv4yiq4HPimU71n1f6EMQWvo2Vq-95bztQj0_FCDxbW2Tpa0xWG_kCkMzAEXjSulCQHpURCPUjRxdvaYlSIbDCpF4z80onTmVPQhbvtbjPVKQ7L-Y2z_X58pCcyYsGK2vsHfJ-KLpIAAAA&shmds=v1_ATWGeeO3yy3XBOcK-nKFAs9OjfYLzR2xKU87SCq0U-Att-jmKg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=htuaCe1rccbYntgIAAAAAA%3D%3D,,,,,,{},,,
+3sViOU1e0hX7o7tAAAAAAA==,Remote Applied AI Engineer: Automation & LLMs,Fusemachines,"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://fusemachines.com&size=128",https://fusemachines.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/remote-applied-ai-engineer-automation-llms-fusemachines-calgary-ab-canada--jobgoal-22543_262756120e504407a4b5c707898a02e7-249749,False,"[{'apply_link': 'https://bebee.com/ca/jobs/remote-applied-ai-engineer-automation-llms-fusemachines-calgary-ab-canada--jobgoal-22543_262756120e504407a4b5c707898a02e7-249749', 'is_direct': False, 'publisher': 'BeBee'}]","A leading AI services provider in Toronto is seeking an Applied AI Engineer(Automation) to create and deploy impactful AI solutions. This role involves collaborating with various stakeholders to integrate AI and automation into business workflows. Candidates should have strong Python skills, experience with LLMs, and at least 3-8 years in software or AI engineering.
+
+The position requires working closely with clients and delivering production-ready solutions. Fusemachines promotes diversity and inclusion in hiring.",False,8 days ago,1778544000,2026-05-12T00:00:00.000Z,"Calgary, AB",Calgary,Alberta,CA,51.044733099999995,-114.0718831,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=3sViOU1e0hX7o7tAAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNOwoCMRQAsd0jaPMqC9GNCDZaxS_K2niBJRsfSSTJC3lZWG_jUV2bKQaGqb6T6vTEQAVBpuQdvkDe4ByNi4h5B7IvFFRxFGEOTfNgWMGdOmBUWVsY9ZXIeJzubSmJd0Iw-9pwGRtdawqCInY0iDd1_EfLVmVMXhVsN9v1UKdoFrNLzxiUtuOVwUU4Km9U_ixBHn638LNJowAAAA&shmds=v1_ATWGeeNJUlv0QL_yfcQbzKjRLla9tpTH7rttGa4MkG_nGGmMPw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=3sViOU1e0hX7o7tAAAAAAA%3D%3D,,,,,,{},,,
+EcdArP9YRFa0Yy8EAAAAAA==,AI Technical Lead Manager Role at Point,Point,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNEoZuPxnYnDjmxeM-_KneuzggLcTbu-28lkcD&s=0,https://point.com,BeBee,Full-time,['FULLTIME'],https://bebee.com/ca/jobs/ai-technical-lead-manager-role-at-point-point-calgary-ab-canada--jobgoal-22543_26ac7608ee2d0f9516a65efe148bdf25-249749-1422390-v,False,"[{'apply_link': 'https://bebee.com/ca/jobs/ai-technical-lead-manager-role-at-point-point-calgary-ab-canada--jobgoal-22543_26ac7608ee2d0f9516a65efe148bdf25-249749-1422390-v', 'is_direct': False, 'publisher': 'BeBee'}]","Elevate your career as a Technical Lead Manager at Point, operating 100% remote in Canada. Lead a team focused on creating impactful AI solutions for homeowners. Point is on the lookout for a Technical Lead Manager to design and implement AI-driven customer experiences. You will oversee a senior team that develops and improves systems for direct homeowner interaction. This is your chance to shape the technical architecture and guide product integrations with various teams. Key Responsibilities:
+
+• Define and direct AI technical strategy for customer engagement
+• Own the roadmap for AI conversation agents
+• Engage in coding and troubleshooting
+• Identify AI applications to streamline operations
+• Set and analyze success metrics for AI agents Requirements:
+• 7+ years in software engineering with leadership experience
+• Proven track record in LLM and conversational AI
+• Experience in customer product delivery from design to deployment
+• Strong expertise in system architecture and design
+• Degree in Computer Science, Engineering, or equivalent Lead the charge in AI innovation and customer service enhancement at Point.",False,5 days ago,1778803200,2026-05-15T00:00:00.000Z,"Calgary, AB",Calgary,Alberta,CA,51.044733099999995,-114.0718831,,,https://www.google.com/search?ibp=htl;jobs&q&htidocid=EcdArP9YRFa0Yy8EAAAAAA%3D%3D&hl=en-CA&shem=rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_yXMsQrCMBAAUFw7OzndLNqI4KIgVAdRFETcyzUeSSTeldwN9Tv8YRGXN77qM6q2zRHu5CMnjxnOhA-4IGOgAjfJBGhwlcQGczhJB0pYfARhOIiETJNNNOt17ZxqroMaWvK1l5cTpk4G95ROf7QasVCf0ahdrhZD3XOYjv91YthjDljeM2h2X23KagGWAAAA&shmds=v1_ATWGeeOQAK5B6xN9b8Rz5zGIZ5iVD61VdOUu8cSww7VmoXKZ_g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq&htidocid=EcdArP9YRFa0Yy8EAAAAAA%3D%3D,,,,,,{},,,
