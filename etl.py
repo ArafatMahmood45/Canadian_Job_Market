@@ -3,10 +3,17 @@ import pandas as pd
 import sqlite3
 import os
 from dotenv import load_dotenv
+import time
+from job_features import (
+    get_experience_level,
+    get_skills,
+    get_role_categories
+)
 
 load_dotenv()
 
-API_KEY = os.getenv("rapidapi-key")
+API_KEY = os.getenv("rapidapi_key")
+print(API_KEY)
 
 class ETL():
 	def __init__(self):
@@ -56,7 +63,13 @@ class ETL():
 
 			response = requests.get(url, headers=headers, params=querystring)
 			print("response status:",response.status_code)
-			print("json response", response.json())
+
+			while response.status_code == 429:
+				print("Rate limited. Sleeping...")
+				time.sleep(5)
+				response = requests.get(url, headers=headers, params=querystring)
+
+			time.sleep(1)
 
 			data = response.json().get("data", {})
 			jobs = data.get("jobs", [])
@@ -98,6 +111,35 @@ class ETL():
 		df["job_is_remote"] = df["job_is_remote"].fillna(0)
 
 		df = df.drop_duplicates(subset="job_id")
+
+		# experience level column
+		df["experience_level"] = df.apply(
+			lambda row: get_experience_level(row.get("job_title", ""),
+											 row.get("job_description", "")), axis=1
+		)
+
+		# skills column
+		df["skills"] = df.apply(
+			lambda row: get_skills(row.get("job_title", ""),
+								   row.get("job_description", "")),
+			axis=1
+		)
+
+		# skills count
+		df["skills_count"] = df["skills"].apply(
+			lambda x: 0 if x == ["unknown"] else len(x)
+		)
+
+		# role_category
+		df["role_category"] = df.apply(
+			lambda row: get_role_categories(row.get("job_title", "")),
+			axis=1
+		)
+
+		df["skills"] = df["skills"].apply(
+			lambda x: ", ".join(x) if isinstance(x, list) else x
+		)
+
 
 		return df
 
@@ -143,9 +185,3 @@ class ETL():
 		self.connection.commit()
 
 		print(f"Inserted {inserted} new rows")
-
-
-
-
-
-

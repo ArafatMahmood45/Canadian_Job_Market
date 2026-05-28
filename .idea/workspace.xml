@@ -5,11 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5273f694-bdf3-4fdd-86ba-4a3f322a15ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../student/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/.idea/student.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/database.db" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.idea/weather_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/.ipynb_checkpoints/TG_STAID000001-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/.ipynb_checkpoints/stations-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000004.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000005.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000006.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000007.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000008.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000012.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000013.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000015.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000016.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000021.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000022.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000023.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000024.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000025.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000026.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000027.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000028.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000029.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000030.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000031.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000032.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000033.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000034.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000036.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000037.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000039.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000040.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000041.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000042.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000043.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000044.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000045.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000046.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000047.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000048.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000049.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000050.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000051.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000052.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000053.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000054.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000055.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000058.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000059.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000060.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000061.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000062.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000063.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000064.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000065.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000066.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000067.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000068.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000069.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000070.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000071.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000072.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000073.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000074.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000075.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000076.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000077.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000078.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000079.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000080.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000081.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000082.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000083.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000084.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000085.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000086.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000087.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000088.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000089.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000090.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000091.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000092.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000093.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000094.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000095.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000096.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000097.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000098.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000099.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/TG_STAID000100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../weather_api/data_small/stations.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +143,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -36,19 +153,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.etl.executor": "Run",
-    "Python.job_features.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/HP/PycharmProjects/Canadian_Job_Platform"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.etl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job_features.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/Canadian_Job_Platform&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\PycharmProjects\Job_Platform" />
