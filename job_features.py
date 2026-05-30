@@ -1,16 +1,5 @@
-import pandas as pd
-import sqlite3
 
-connection = sqlite3.connect('data.db')
 
-df = pd.read_sql("SELECT * FROM jobs_ca", connection)
-
-# #remove job_description & job_country: not needed for dashboard analysis
-# df = df.drop(["job_country"], axis=1)
-title = df.job_title
-description = df.job_description
-
-#create experience level column
 def get_experience_level(title, description):
     text = f'{title} {description}'.lower()
 
@@ -25,7 +14,6 @@ def get_experience_level(title, description):
         "5+ years", "8+ years", "7+ years", "10+ years"
     ]
 
-
     if any(word in text for word in entry_keywords):
         return "entry"
 
@@ -34,10 +22,10 @@ def get_experience_level(title, description):
 
     return "unknown"
 
-df["experience_level"] = df.apply(
-    lambda row: get_experience_level(row.get("job_title", ""),
-                                     row.get("job_description", "")), axis=1
-)
+# df["experience_level"] = df.apply(
+#     lambda row: get_experience_level(row.get("job_title", ""),
+#                                      row.get("job_description", "")), axis=1
+# )
 
 # create skills column
 def get_skills(title, description):
@@ -76,15 +64,7 @@ def get_skills(title, description):
     return list(set(skill_found)) if skill_found else ["unknown"]
 
 
-df["skills"] = df.apply(
-    lambda row: get_skills(row.get("job_title", ""),row.get("job_description", "")), axis=1
-)
 
-df["skills_count"] = df["skills"].apply(
-    lambda x: 0 if x == ["unknown"] else len(x)
-)
-
-print(df["skills"].explode().value_counts())
 
 #create role category column
 role_categories = {
@@ -135,17 +115,4 @@ def get_role_categories(title):
 
     return "unknown"
 
-df["role_category"] = df.apply(
-    lambda row: get_role_categories(row.get("job_title", "")), axis=1
-)
 
-df_exploded = df[['job_id', 'skills']].explode('skills')
-df_exploded = df_exploded.rename(columns={'skills': 'skill'})
-
-df_jobs = df.copy(deep=True)
-df_jobs["skills"] = df_jobs["skills"].apply(lambda x: ", ".join(x))
-
-#df_jobs.to_sql("jobs_ca", connection, if_exists="replace", index=False)
-#df_exploded.to_sql("jobs_skills", connection, if_exists="replace", index=False)
-
-print(df)

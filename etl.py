@@ -5,10 +5,10 @@ import os
 from dotenv import load_dotenv
 import time
 from job_features import (
-    get_experience_level,
-    get_skills,
-    get_role_categories
-)
+	get_experience_level,
+	get_skills,
+	get_role_categories)
+
 
 load_dotenv()
 
@@ -32,7 +32,11 @@ class ETL():
 		            job_state TEXT,
 		            job_is_remote INTEGER,
 		            job_posted_at_datetime_utc TEXT,
-		            job_description TEXT
+		            job_description TEXT,
+		            experience_level TEXT,
+    				skills TEXT,
+    				skills_count INTEGER,
+    				role_category TEXT
 		        )
 		        """)
 
@@ -69,7 +73,7 @@ class ETL():
 				time.sleep(5)
 				response = requests.get(url, headers=headers, params=querystring)
 
-			time.sleep(1)
+			time.sleep(2)
 
 			data = response.json().get("data", {})
 			jobs = data.get("jobs", [])
@@ -112,7 +116,9 @@ class ETL():
 
 		df = df.drop_duplicates(subset="job_id")
 
-		# experience level column
+		title = df.job_title
+		description = df.job_description
+
 		df["experience_level"] = df.apply(
 			lambda row: get_experience_level(row.get("job_title", ""),
 											 row.get("job_description", "")), axis=1
@@ -140,6 +146,11 @@ class ETL():
 			lambda x: ", ".join(x) if isinstance(x, list) else x
 		)
 
+		print(df[[
+			"experience_level",
+			"skills_count",
+			"role_category"
+		]].head())
 
 		return df
 
@@ -164,9 +175,13 @@ class ETL():
 				   job_state,
 				   job_is_remote,
 				   job_posted_at_datetime_utc,
-				   job_description
+				   job_description,
+				   experience_level,
+    			   skills,
+    			   skills_count,
+    			   role_category
 			   )
-			   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+			   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 			   """, (
 				row.get("job_id"),
 				row.get("job_title"),
@@ -176,7 +191,11 @@ class ETL():
 				row.get("job_state"),
 				row.get("job_is_remote"),
 				row.get("job_posted_at_datetime_utc"),
-				row.get("job_description")
+				row.get("job_description"),
+				row.get("experience_level"),
+				row.get("skills"),
+				row.get("skills_count"),
+				row.get("role_category")
 			))
 
 			if cursor.rowcount > 0:
