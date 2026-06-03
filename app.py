@@ -7,9 +7,13 @@ st.set_page_config(page_title="Canadian Job Market Intelligence", layout="wide")
 st.title("(CA) Canadian Job Market Intelligence")
 
 connection = sqlite3.connect("data.db")
+
 jobs = pd.read_sql("SELECT * FROM jobs_ca", connection)
+jobs = jobs.copy()
+
 
 # KPIs
+
 
 col1, col2, col3, col4 = st.columns(4)
 
@@ -23,28 +27,30 @@ with col3:
     st.metric("Employers:", jobs.employer_name.nunique())
 
 with col4:
-    st.metric("Remote:", jobs.job_is_remote.sum())
+    jobs["job_posted_at_datetime_utc"] = pd.to_datetime(
+        jobs["job_posted_at_datetime_utc"],
+        errors="coerce"
+    )
+    latest_job = jobs["job_posted_at_datetime_utc"].max()
+    st.metric("Latest Job Posted:", latest_job.strftime("%d %B %Y"))
 
 #  Province Chart
 st.subheader("Jobs by Province")
 
 province_counts = (
-    jobs["job_state"]
+    jobs[jobs["job_state"] != 'Unknown']["job_state"]
     .value_counts()
-    .reset_index()
+    .rename_axis("Province")
+    .reset_index(name="Jobs")
 )
 
-province_counts.columns = ["Province", "Jobs"]
-
-st.bar_chart(
-    province_counts.set_index("Province")
-)
+st.bar_chart(province_counts.set_index("Province"))
 
 #  Cities Chart
 st.subheader("Top Cities")
 
 city_counts = (
-    jobs["job_city"]
+    jobs[jobs["job_city"] != "Unknown"]["job_city"]
     .value_counts()
     .head(10)
 )
@@ -54,13 +60,15 @@ st.bar_chart(city_counts)
 #  Role Categories Chart
 st.subheader("Role Categories")
 
-role_counts = jobs["role_category"].value_counts()
+role_counts = jobs[jobs["role_category"] != "Unknown"]["role_category"].value_counts()
 
 st.bar_chart(role_counts)
 
-#  Experience level Chart
-st.subheader("Experience Levels")
+#  Job Posted by month
+jobs["day"] = jobs["job_posted_at_datetime_utc"].dt.date
 
-experience_counts = jobs["experience_level"].value_counts()
+daily_jobs = jobs.groupby("day").size().sort_index()
 
-st.bar_chart(experience_counts)
+
+st.subheader("Jobs Posted by Day")
+st.line_chart(daily_jobs)
