@@ -12,8 +12,8 @@ from job_features import (
 
 load_dotenv()
 
-API_KEY = os.getenv("rapidapi_key")
-print(API_KEY)
+RAPID_API_KEY = os.getenv("rapidapi_key")
+print(RAPID_API_KEY)
 
 class ETL():
 	def __init__(self):
@@ -42,7 +42,7 @@ class ETL():
 
 		self.connection.commit()
 
-	def extract(self):
+	def extract_jsearch(self):
 		all_jobs = []
 		querys = ["Data Engineer in Canada",
     			  "Machine Learning Engineer in Canada",
@@ -52,12 +52,13 @@ class ETL():
 				  "Data Scientist in Canada",
 				  "MLOps Engineer in Canada",
 				  "Analytics Engineer in Canada",
-				  "Cloud Engineer in Canada"]
+				  "Cloud Engineer in Canada",
+				  "Data Analyst in Canada"]
 
 		url = "https://jsearch.p.rapidapi.com/search-v2"
 
 		headers = {
-			"x-rapidapi-key": API_KEY,
+			"x-rapidapi-key": RAPID_API_KEY,
 			"x-rapidapi-host": "jsearch.p.rapidapi.com",
 			"Content-Type": "application/json"
 		}
@@ -66,19 +67,20 @@ class ETL():
 			querystring = {"query": query, "num_pages": "3", "country": "ca", "date_posted": "week"}
 
 			response = requests.get(url, headers=headers, params=querystring)
-			print("response status:",response.status_code)
+
 
 			while response.status_code == 429:
 				print("Rate limited. Sleeping...")
 				time.sleep(5)
 				response = requests.get(url, headers=headers, params=querystring)
-
+				print("response status:", response.status_code)
 			time.sleep(2)
 
 			data = response.json().get("data", {})
 			jobs = data.get("jobs", [])
 			print("length of job",len(jobs))
 			all_jobs.extend(jobs)
+
 
 		df = pd.DataFrame(all_jobs)
 		return df
