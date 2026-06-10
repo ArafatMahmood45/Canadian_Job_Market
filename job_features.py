@@ -106,8 +106,8 @@ role_categories = {
     ]
 }
 
-def get_role_categories(title):
-    text = f'{title}'.lower()
+def get_role_categories(title, description):
+    text = f'{title} {description}'.lower()
 
     for category, keywords in role_categories.items():
         if any(keyword in text for keyword in keywords):

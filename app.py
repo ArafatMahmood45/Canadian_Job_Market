@@ -39,7 +39,7 @@ st.subheader("Jobs by Province")
 
 province_counts = (
     jobs[jobs["job_state"] != 'Unknown']["job_state"]
-    .value_counts()
+    .value_counts().head(10)
     .rename_axis("Province")
     .reset_index(name="Jobs")
 )

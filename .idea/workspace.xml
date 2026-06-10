@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5273f694-bdf3-4fdd-86ba-4a3f322a15ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/adzuna_extract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/misc.xml" afterDir="false" />
@@ -123,7 +123,9 @@
       <change afterPath="$PROJECT_DIR$/../weather_api/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adzuna_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/adzuna_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_features.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +156,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.adzuna_extract.executor": "Run",
+    "Python.data.executor": "Run",
     "Python.etl.executor": "Run",
     "Python.job_features.executor": "Run",
     "Python.main.executor": "Run",
@@ -174,7 +177,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="adzuna_extract" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Job_Platform" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +191,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adzuna_extract.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
