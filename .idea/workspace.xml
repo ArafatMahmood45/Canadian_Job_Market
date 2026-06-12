@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5273f694-bdf3-4fdd-86ba-4a3f322a15ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MC_simulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fig1_binomial_distributions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fig2_binomial_mean_spread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fig3.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/misc.xml" afterDir="false" />
@@ -126,6 +122,10 @@
       <change afterPath="$PROJECT_DIR$/../weather_api/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adzuna_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/adzuna_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,25 +152,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.adzuna_extract.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.assignment.executor": "Run",
-    "Python.data.executor": "Run",
-    "Python.etl.executor": "Run",
-    "Python.fig2_binomial_mean_spread.executor": "Run",
-    "Python.job_features.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/HP/PycharmProjects/Canadian_Job_Platform"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.adzuna_extract.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.assignment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.etl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fig2_binomial_mean_spread.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fig3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job_features.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/Canadian_Job_Platform&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\PycharmProjects\Job_Platform" />

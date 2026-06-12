@@ -1,12 +1,17 @@
 import schedule
 import time
 from etl import ETL
+import pandas as pd
 
 def run_etl():
     etl = ETL()
-    df = etl.extract()
-    print(f"Extracted rows: {len(df)}")
+    df_adzuna = etl.extract_adzuna()
+    df_jsearch =etl.extract_jsearch()
 
+    df_adzuna = etl.transform(df_adzuna)
+    df_jsearch = etl.transform_jsearch(df_jsearch)
+
+    df = pd.concat([df_adzuna, df_jsearch], ignore_index=True)
     df = etl.transform(df)
     print(f"Rows after transform: {len(df)}")
 

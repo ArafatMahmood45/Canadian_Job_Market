@@ -1,4 +1,4 @@
-
+import ast
 
 def get_experience_level(title, description):
     text = f'{title} {description}'.lower()
@@ -115,4 +115,32 @@ def get_role_categories(title, description):
 
     return "unknown"
 
+
+def get_city(location):
+    area = location.get("area", [])
+
+    if len(area) >= 3:
+        return area[-1]
+
+    return "Unknown"
+
+
+def get_state(location):
+    area = location.get("area", [])
+
+    if len(area) >= 2:
+        return area[-2]
+
+    return "Unknown"
+
+
+def safe_parse(x):
+    if isinstance(x, dict):
+        return x
+    if isinstance(x, str):
+        try:
+            return ast.literal_eval(x)
+        except:
+            return {}
+    return {}
 
