@@ -144,3 +144,13 @@ def safe_parse(x):
             return {}
     return {}
 
+
+def build_dedup_key(row):
+    title = row["job_title"].lower().strip()
+    company = row["employer_name"].lower().strip()
+    city = str(row["job_city"]).lower().strip()
+
+    if city in ["unknown", "", "none"]:
+        return f"{title}|{company}"
+
+    return f"{title}|{company}|{city}"

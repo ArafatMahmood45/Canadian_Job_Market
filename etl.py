@@ -11,7 +11,8 @@ from job_features import (
 	get_role_categories,
 	get_state,
 	get_city,
-	safe_parse)
+	safe_parse,
+	build_dedup_key)
 
 
 load_dotenv()
@@ -29,8 +30,8 @@ class ETL():
 		cursor = self.connection.cursor()
 
 		cursor.execute("""
-		        CREATE TABLE IF NOT EXISTS jobs_ca (
-		            job_id TEXT PRIMARY KEY,
+		        CREATE TABLE IF NOT EXISTS jobs_ca_new (
+		            job_id TEXT,
 		            job_title TEXT,
 		            employer_name TEXT,
 		            job_country TEXT,
@@ -43,7 +44,9 @@ class ETL():
     				skills TEXT,
     				skills_count INTEGER,
     				role_category TEXT,
-    				source TEXT
+    				source TEXT,
+    				dedup_key TEXT UNIQUE,
+    				ingestion_time TEXT
 		        )
 		        """)
 
@@ -128,6 +131,7 @@ class ETL():
 
 			data = response.json()
 			jobs = data.get("results", [])
+			print("length of job_adz", len(jobs))
 			all_jobs.extend(jobs)
 
 		df_adzuna = pd.DataFrame(all_jobs)
@@ -190,16 +194,24 @@ class ETL():
 		df_clean["job_country"] = "CA"
 		df_clean["job_is_remote"] = 0
 		df_clean["source"] = "adzuna"
+
+		df_clean = df_clean.drop_duplicates(subset="job_id")
+
 		return df_clean
 
 	def transform(self, df):
 		if df.empty:
 			return df
 
-		df = df.drop_duplicates(subset="job_id")
+		df = df.drop_duplicates()
+
+		df["dedup_key"] = df.apply(build_dedup_key, axis=1)
+		df = df.drop_duplicates(subset=["dedup_key"])
+
+		df["ingestion_time"] = pd.Timestamp.utcnow().isoformat()
 
 		df["job_description"] = df["job_description"].fillna("")
-		df["job_title"] = df["job_title"].fillna("")
+
 
 		# Experience Level
 		df["experience_level"] = df.apply(
@@ -221,7 +233,7 @@ class ETL():
 
 		# role_category
 		df["role_category"] = df.apply(
-			lambda row: get_role_categories(row.get("job_title", "")),
+			lambda row: get_role_categories(row.get("job_title", ""), row.get("job_description", "")),
 			axis=1
 		)
 
@@ -257,9 +269,11 @@ class ETL():
     			   skills,
     			   skills_count,
     			   role_category,
-    			   source
+    			   source,
+    			   dedup_key,
+    			   ingestion_time
 			   )
-			   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+			   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 			   """, (
 				row.get("job_id"),
 				row.get("job_title"),
@@ -274,7 +288,9 @@ class ETL():
 				row.get("skills"),
 				row.get("skills_count"),
 				row.get("role_category"),
-				row.get("source")
+				row.get("source"),
+				row.get("dedup_key"),
+				row.get("ingestion_time")
 
 			))
 

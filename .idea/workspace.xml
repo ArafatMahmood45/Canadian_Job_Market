@@ -122,7 +122,8 @@
       <change afterPath="$PROJECT_DIR$/../weather_api/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adzuna_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/adzuna_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_features.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
@@ -181,7 +182,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="fig3_mc_vs_theoretical" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Job_Platform" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +196,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="C:\Users\HP\PycharmProjects\Canadian_Job_Platform\fig3_mc_vs_theoretical.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
