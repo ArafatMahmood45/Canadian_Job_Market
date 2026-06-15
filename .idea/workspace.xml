@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5273f694-bdf3-4fdd-86ba-4a3f322a15ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/postgreSQL.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/misc.xml" afterDir="false" />
@@ -122,11 +123,6 @@
       <change afterPath="$PROJECT_DIR$/../weather_api/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.db" beforeDir="false" afterPath="$PROJECT_DIR$/data.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/job_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
