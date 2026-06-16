@@ -1,13 +1,14 @@
 import psycopg2
 from psycopg2.extras import execute_values
 
-self.connection = psycopg2.connect(
+connection = psycopg2.connect(
     host="localhost",
-    database="canada_jobs",
+    database="Job_platform",
     user="postgres",
-    password="your_password",
+    password="Intention2025%",
     port="5432"
 )
+cursor = connection.cursor()
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS jobs_ca (
@@ -30,44 +31,50 @@ CREATE TABLE IF NOT EXISTS jobs_ca (
 )
 """)
 
-cursor.execute("""
-INSERT INTO jobs_ca (
-    job_id,
-    job_title,
-    employer_name,
-    job_country,
-    job_city,
-    job_state,
-    job_is_remote,
-    job_posted_at_datetime_utc,
-    job_description,
-    experience_level,
-    skills,
-    skills_count,
-    role_category,
-    source,
-    dedup_key,
-    ingestion_time
-)
-VALUES (
-    %s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s
-)
-ON CONFLICT (dedup_key) DO NOTHING
-""", (
-    row.get("job_id"),
-    row.get("job_title"),
-    row.get("employer_name"),
-    row.get("job_country"),
-    row.get("job_city"),
-    row.get("job_state"),
-    row.get("job_is_remote"),
-    row.get("job_posted_at_datetime_utc"),
-    row.get("job_description"),
-    row.get("experience_level"),
-    row.get("skills"),
-    row.get("skills_count"),
-    row.get("role_category"),
-    row.get("source"),
-    row.get("dedup_key"),
-    row.get("ingestion_time")
-))
+connection.commit()
+cursor.close()
+connection.close()
+
+print("Table created")
+#
+# cursor.execute("""
+# INSERT INTO jobs_ca (
+#     job_id,
+#     job_title,
+#     employer_name,
+#     job_country,
+#     job_city,
+#     job_state,
+#     job_is_remote,
+#     job_posted_at_datetime_utc,
+#     job_description,
+#     experience_level,
+#     skills,
+#     skills_count,
+#     role_category,
+#     source,
+#     dedup_key,
+#     ingestion_time
+# )
+# VALUES (
+#     %s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s
+# )
+# ON CONFLICT (dedup_key) DO NOTHING
+# """, (
+#     row.get("job_id"),
+#     row.get("job_title"),
+#     row.get("employer_name"),
+#     row.get("job_country"),
+#     row.get("job_city"),
+#     row.get("job_state"),
+#     row.get("job_is_remote"),
+#     row.get("job_posted_at_datetime_utc"),
+#     row.get("job_description"),
+#     row.get("experience_level"),
+#     row.get("skills"),
+#     row.get("skills_count"),
+#     row.get("role_category"),
+#     row.get("source"),
+#     row.get("dedup_key"),
+#     row.get("ingestion_time")
+# ))
