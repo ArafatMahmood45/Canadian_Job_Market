@@ -20,6 +20,7 @@ load_dotenv()
 RAPID_API_KEY = os.getenv("rapidapi_key")
 adz_key = os.getenv("adz_key")
 adz_id = os.getenv("adz_id")
+pg_password = os.getenv("pg_password")
 print(RAPID_API_KEY)
 
 class ETL():
@@ -29,7 +30,7 @@ class ETL():
 			host="localhost",
 			database="Job_platform",
 			user="postgres",
-			password="Intention2025%",
+			password=pg_password,
 			port="5432"
 		)
 
