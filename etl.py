@@ -1,7 +1,7 @@
 import requests
-import ast
 import pandas as pd
-import sqlite3
+import psycopg2
+from psycopg2.extras import execute_values
 import os
 from dotenv import load_dotenv
 import time
@@ -25,32 +25,15 @@ print(RAPID_API_KEY)
 class ETL():
 	def __init__(self):
 		super().__init__()
-		self.connection = sqlite3.connect("data.db")
+		self.connection = psycopg2.connect(
+			host="localhost",
+			database="Job_platform",
+			user="postgres",
+			password="Intention2025%",
+			port="5432"
+		)
 
 		cursor = self.connection.cursor()
-
-		cursor.execute("""
-		        CREATE TABLE IF NOT EXISTS jobs_ca_new (
-		            job_id TEXT,
-		            job_title TEXT,
-		            employer_name TEXT,
-		            job_country TEXT,
-		            job_city TEXT,
-		            job_state TEXT,
-		            job_is_remote INTEGER,
-		            job_posted_at_datetime_utc TEXT,
-		            job_description TEXT,
-		            experience_level TEXT,
-    				skills TEXT,
-    				skills_count INTEGER,
-    				role_category TEXT,
-    				source TEXT,
-    				dedup_key TEXT UNIQUE,
-    				ingestion_time TEXT
-		        )
-		        """)
-
-		self.connection.commit()
 
 	def extract_jsearch(self):
 		all_jobs = []
@@ -208,6 +191,8 @@ class ETL():
 		df["dedup_key"] = df.apply(build_dedup_key, axis=1)
 		df = df.drop_duplicates(subset=["dedup_key"])
 
+		df["job_is_remote"] = df["job_is_remote"].fillna(0).apply(lambda x: bool(int(x)))
+
 		df["ingestion_time"] = pd.Timestamp.utcnow().isoformat()
 
 		df["job_description"] = df["job_description"].fillna("")
@@ -252,10 +237,8 @@ class ETL():
 
 		cursor = self.connection.cursor()
 
-		inserted = 0
-		for _, row in df.iterrows():
-			cursor.execute("""
-			   INSERT OR IGNORE INTO jobs_ca (
+		insert_query = """
+			   INSERT INTO jobs_ca (
 				   job_id,
 				   job_title,
 				   employer_name,
@@ -273,30 +256,13 @@ class ETL():
     			   dedup_key,
     			   ingestion_time
 			   )
-			   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-			   """, (
-				row.get("job_id"),
-				row.get("job_title"),
-				row.get("employer_name"),
-				row.get("job_country"),
-				row.get("job_city"),
-				row.get("job_state"),
-				row.get("job_is_remote"),
-				row.get("job_posted_at_datetime_utc"),
-				row.get("job_description"),
-				row.get("experience_level"),
-				row.get("skills"),
-				row.get("skills_count"),
-				row.get("role_category"),
-				row.get("source"),
-				row.get("dedup_key"),
-				row.get("ingestion_time")
+			   VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+			   ON CONFLICT (dedup_key) DO NOTHING
+			   """
 
-			))
+		rows = df.to_records(index=False)
 
-			if cursor.rowcount > 0:
-				inserted += 1
+		execute_values(cursor, insert_query, rows)
 
 		self.connection.commit()
-
-		print(f"Inserted {inserted} new rows")
+		print(f"Inserted {len(rows)} new rows")

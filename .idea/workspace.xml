@@ -122,6 +122,7 @@
       <change afterPath="$PROJECT_DIR$/../weather_api/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postgreSQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/postgreSQL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" afterDir="false" />
     </list>
@@ -149,27 +150,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.adzuna_extract.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.assignment.executor": "Run",
-    "Python.data.executor": "Run",
-    "Python.etl.executor": "Run",
-    "Python.fig2_binomial_mean_spread.executor": "Run",
-    "Python.fig3.executor": "Run",
-    "Python.job_features.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.postgreSQL.executor": "Run",
-    "Python.run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/HP/PycharmProjects/Canadian_Job_Platform"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.adzuna_extract.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.assignment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.etl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fig2_binomial_mean_spread.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fig3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.job_features.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.postgreSQL.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/Canadian_Job_Platform&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\PycharmProjects\Job_Platform" />
