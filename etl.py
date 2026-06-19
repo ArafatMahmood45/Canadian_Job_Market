@@ -1,4 +1,5 @@
 import requests
+import numpy as np
 import pandas as pd
 import psycopg2
 from psycopg2.extras import execute_values
@@ -35,6 +36,18 @@ class ETL():
 		)
 
 		cursor = self.connection.cursor()
+
+	def _to_pg_value(self, x):
+		if pd.isna(x):
+			return None
+
+		if isinstance(x, np.generic):
+			return x.item()
+
+		if isinstance(x, pd.Timestamp):
+			return x.to_pydatetime()
+
+		return x
 
 	def extract_jsearch(self):
 		all_jobs = []
@@ -192,9 +205,9 @@ class ETL():
 		df["dedup_key"] = df.apply(build_dedup_key, axis=1)
 		df = df.drop_duplicates(subset=["dedup_key"])
 
-		df["job_is_remote"] = df["job_is_remote"].fillna(0).apply(lambda x: bool(int(x)))
+		df["job_is_remote"] = df["job_is_remote"].fillna(0).astype(int).map(bool)
 
-		df["ingestion_time"] = pd.Timestamp.utcnow().isoformat()
+		df["ingestion_time"] = pd.Timestamp.utcnow()
 
 		df["job_description"] = df["job_description"].fillna("")
 
@@ -257,11 +270,32 @@ class ETL():
     			   dedup_key,
     			   ingestion_time
 			   )
-			   VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+			   VALUES %s
 			   ON CONFLICT (dedup_key) DO NOTHING
 			   """
+		df = df.reindex(columns=[
+			"job_id",
+			"job_title",
+			"employer_name",
+			"job_country",
+			"job_city",
+			"job_state",
+			"job_is_remote",
+			"job_posted_at_datetime_utc",
+			"job_description",
+			"experience_level",
+			"skills",
+			"skills_count",
+			"role_category",
+			"source",
+			"dedup_key",
+			"ingestion_time"
+		])
 
-		rows = df.to_records(index=False)
+		rows = [
+			tuple(self._to_pg_value(x) for x in row)
+			for row in df.itertuples(index=False, name=None)
+		]
 
 		execute_values(cursor, insert_query, rows)
 
