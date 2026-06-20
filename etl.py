@@ -74,14 +74,20 @@ class ETL():
 			querystring = {"query": query, "num_pages": "3", "country": "ca", "date_posted": "week"}
 
 			response = requests.get(url, headers=headers, params=querystring)
+			max_retries = 5
+			retries = 0
 
-
-			while response.status_code == 429:
+			while response.status_code == 429 and retries < max_retries:
 				print("Rate limited. Sleeping...")
-				time.sleep(5)
+				time.sleep(30)
+				retries += 1
 				response = requests.get(url, headers=headers, params=querystring)
 				print("response status:", response.status_code)
-			time.sleep(2)
+
+			if response.status_code == 429:
+				print("Still rate limited after retries. Skipping.")
+				continue
+			time.sleep(60)
 
 			data = response.json().get("data", {})
 			jobs = data.get("jobs", [])
@@ -118,13 +124,20 @@ class ETL():
 			}
 
 			response = requests.get(url, params=params)
+			max_retries = 5
+			retries = 0
 
-			while response.status_code == 429:
+			while response.status_code == 429 and retries < max_retries:
 				print("Rate limited. Sleeping...")
-				time.sleep(5)
+				time.sleep(30)
+				retries +=1
 				response = requests.get(url, params=params)
 				print("response status:", response.status_code)
-			time.sleep(2)
+
+			if response.status_code == 429:
+				print("Still rate limited after retries. Skipping.")
+				continue
+			time.sleep(60)
 
 			data = response.json()
 			jobs = data.get("results", [])
