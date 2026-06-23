@@ -7,24 +7,24 @@ from etl import openai_key
 
 client = OpenAI(api_key=openai_key)
 
-conn = psycopg2.connect(
+connection = psycopg2.connect(
     host="localhost",
-    database="Job_platform",
+    database="postgres",
     user="postgres",
     password=pg_password,
-    port="5432"
+    port="5433"
 )
 
-cur = conn.cursor()
-register_vector(conn)
+cur = connection.cursor()
+register_vector(connection)
 
 df = pd.read_sql("""
-    SELECT id, job_title, employer_name, job_city, job_state,
+    SELECT job_id, job_title, employer_name, job_city, job_state,
            job_country, job_is_remote, role_category,
            experience_level, skills, job_description
-    FROM jobs_ca
+    FROM jobs_ca_new
     WHERE embedding IS NULL
-""", conn)
+""", connection)
 
 def safe(x):
     return "Not specified" if pd.isna(x) or x == "" else str(x)
@@ -61,11 +61,11 @@ for i, row in df.iterrows():
         WHERE id = %s
     """, (embeddings[i], row["id"]))
 
-conn.commit()
+connection.commit()
 
-query = "python machine learning engineer remote Canada"
-
-query_embedding = client.embeddings.create(
-    model="text-embedding-3-small",
-    input=query
-).data[0].embedding
+# query = "python machine learning engineer remote Canada"
+#
+# query_embedding = client.embeddings.create(
+#     model="text-embedding-3-small",
+#     input=query
+# ).data[0].embedding

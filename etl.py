@@ -30,10 +30,10 @@ class ETL():
 		super().__init__()
 		self.connection = psycopg2.connect(
 			host="localhost",
-			database="Job_platform",
+			database="postgres",
 			user="postgres",
 			password=pg_password,
-			port="5432"
+			port="5433"
 		)
 
 		cursor = self.connection.cursor()
