@@ -22,6 +22,7 @@ RAPID_API_KEY = os.getenv("rapidapi_key")
 adz_key = os.getenv("adz_key")
 adz_id = os.getenv("adz_id")
 pg_password = os.getenv("pg_password")
+openai_key = os.getenv("openai_key")
 print(RAPID_API_KEY)
 
 class ETL():

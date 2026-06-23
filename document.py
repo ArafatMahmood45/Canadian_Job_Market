@@ -1,23 +1,33 @@
 import psycopg2
-from etl import pg_password
-import pandas as pd
+from pgvector.psycopg2 import register_vector
 from openai import OpenAI
+import pandas as pd
+from etl import pg_password
+from etl import openai_key
 
-client = OpenAI()
-#
-# connection = psycopg2.connect(user="postgres", database="Job_platform", password=pg_password, host="localhost", port="5432")
-#
-# df = pd.read_sql("SELECT * FROM jobs_ca", connection)
-#
-# df.to_csv("document.csv")
+client = OpenAI(api_key=openai_key)
 
-df = pd.read_csv("document.csv")
-df = df.drop('Unnamed: 0', axis=1)
+conn = psycopg2.connect(
+    host="localhost",
+    database="Job_platform",
+    user="postgres",
+    password=pg_password,
+    port="5432"
+)
+
+cur = conn.cursor()
+register_vector(conn)
+
+df = pd.read_sql("""
+    SELECT id, job_title, employer_name, job_city, job_state,
+           job_country, job_is_remote, role_category,
+           experience_level, skills, job_description
+    FROM jobs_ca
+    WHERE embedding IS NULL
+""", conn)
 
 def safe(x):
-    if pd.isna(x) or x == "":
-        return "Not specified"
-    return str(x)
+    return "Not specified" if pd.isna(x) or x == "" else str(x)
 
 def create_document(row):
     return f"""
@@ -33,19 +43,29 @@ Job Description:
 {safe(row['job_description'])}
 """.strip()
 
-df["document"] = df.apply(create_document, axis=1)
-
-print(df.head())
-
-
-
-def get_embedding(text):
+def get_embeddings(texts):
     return client.embeddings.create(
         model="text-embedding-3-small",
-        input=text
-    ).data[0].embedding
+        input=texts
+    ).data
 
-df["embedding"] = df["document"].apply(get_embedding)
+df["document"] = df.apply(create_document, axis=1)
 
+results = get_embeddings(df["document"].tolist())
+embeddings = [r.embedding for r in results]
 
+for i, row in df.iterrows():
+    cur.execute("""
+        UPDATE jobs_ca
+        SET embedding = %s
+        WHERE id = %s
+    """, (embeddings[i], row["id"]))
 
+conn.commit()
+
+query = "python machine learning engineer remote Canada"
+
+query_embedding = client.embeddings.create(
+    model="text-embedding-3-small",
+    input=query
+).data[0].embedding
