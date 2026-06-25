@@ -9,6 +9,18 @@ st.set_page_config(
 
 st.title("Search Jobs (Canada Job Market)")
 
+st.subheader("AI Job Search")
+
+semantic_query = st.text_area(
+    "Describe the job you're looking for",
+    placeholder="Example: Looking for entry-level AI jobs in Toronto that require Python and machine learning skills"
+)
+
+semantic_search = st.button("Search with AI")
+
+if semantic_search and semantic_query:
+    st.info(f"Searching for: {semantic_query}")
+
 # =========================
 # Load Data
 # =========================
