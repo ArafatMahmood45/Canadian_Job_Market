@@ -11,9 +11,23 @@ st.title("Search Jobs (Canada Job Market)")
 
 st.subheader("AI Job Search")
 
+st.info(
+    """
+    🤖 **AI Semantic Job Search**
+
+    Describe the kind of job you're looking for in natural language.
+
+    Examples:
+    - Entry-level AI jobs in Toronto
+    - Remote Python developer jobs with SQL
+    - Machine learning roles suitable for new graduates
+    - Data engineering jobs requiring Spark and AWS
+    """
+)
+
 semantic_query = st.text_area(
     "Describe the job you're looking for",
-    placeholder="Example: Looking for entry-level AI jobs in Toronto that require Python and machine learning skills"
+    placeholder="Example: Looking for entry-level AI job in Toronto that require Python and machine learning skills"
 )
 
 semantic_search = st.button("Search with AI")
