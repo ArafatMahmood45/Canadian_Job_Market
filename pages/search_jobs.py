@@ -13,7 +13,7 @@ st.subheader("AI Job Search")
 
 st.info(
     """
-    🤖 **AI Semantic Job Search**
+    🤖 **AI Semantic Jobs Search**
 
     Describe the kind of job you're looking for in natural language.
 

@@ -19,8 +19,8 @@ jobs["skills"] = jobs["skills"].fillna("unknown")
 # KPIs
 # -----------------------------
 st.subheader("Key Insights")
-
-col1, col2, col3 = st.columns(3)
+# remember to remove col4
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     total_unique_skills = (
@@ -43,6 +43,10 @@ with col2:
 
 with col3:
     avg_skills_per_job = jobs["skills_count"].mean()
+    st.metric("Avg Skills per Job", round(avg_skills_per_job, 2))
+
+with col4:
+    med_skills_per_job = jobs["skills_count"].median()
     st.metric("Avg Skills per Job", round(avg_skills_per_job, 2))
 
 # -----------------------------
@@ -100,3 +104,10 @@ skill_table = (
 skill_table.columns = ["Skill", "Count"]
 
 st.dataframe(skill_table)
+
+# this too
+st.title("Skills Analysis (Canada Job Market)")
+
+st.caption(
+    "Explore the most in-demand technical skills across AI, Data, Cloud, and Software Engineering roles in Canada."
+)
