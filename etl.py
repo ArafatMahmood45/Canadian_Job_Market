@@ -80,7 +80,7 @@ class ETL():
 
 			while response.status_code == 429 and retries < max_retries:
 				print("Rate limited. Sleeping...")
-				time.sleep(30)
+				time.sleep(10)
 				retries += 1
 				response = requests.get(url, headers=headers, params=querystring)
 				print("response status:", response.status_code)
@@ -88,7 +88,7 @@ class ETL():
 			if response.status_code == 429:
 				print("Still rate limited after retries. Skipping.")
 				continue
-			time.sleep(60)
+			time.sleep(20)
 
 			data = response.json().get("data", {})
 			jobs = data.get("jobs", [])
@@ -130,7 +130,7 @@ class ETL():
 
 			while response.status_code == 429 and retries < max_retries:
 				print("Rate limited. Sleeping...")
-				time.sleep(30)
+				time.sleep(10)
 				retries +=1
 				response = requests.get(url, params=params)
 				print("response status:", response.status_code)
@@ -138,7 +138,7 @@ class ETL():
 			if response.status_code == 429:
 				print("Still rate limited after retries. Skipping.")
 				continue
-			time.sleep(60)
+			time.sleep(20)
 
 			data = response.json()
 			jobs = data.get("results", [])
@@ -266,7 +266,7 @@ class ETL():
 		cursor = self.connection.cursor()
 
 		insert_query = """
-			   INSERT INTO jobs_ca (
+			   INSERT INTO jobs_ca_new (
 				   job_id,
 				   job_title,
 				   employer_name,
