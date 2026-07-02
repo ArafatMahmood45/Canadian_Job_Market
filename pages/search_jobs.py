@@ -1,7 +1,12 @@
 import streamlit as st
-import sqlite3
 import pandas as pd
+from sqlalchemy import create_engine
+from openai import OpenAI
+from etl import openai_key
 
+# =========================
+# CONFIG
+# =========================
 st.set_page_config(
     page_title="Search Jobs",
     layout="wide"
@@ -9,109 +14,97 @@ st.set_page_config(
 
 st.title("Search Jobs (Canada Job Market)")
 
-st.subheader("AI Job Search")
+st.subheader("AI Semantic Job Search")
 
 st.info(
     """
-    🤖 **AI Semantic Jobs Search**
-
-    Describe the kind of job you're looking for in natural language.
+    🤖 Describe the job you're looking for in natural language.
 
     Examples:
     - Entry-level AI jobs in Toronto
     - Remote Python developer jobs with SQL
-    - Machine learning roles suitable for new graduates
-    - Data engineering jobs requiring Spark and AWS
+    - Machine learning roles for new graduates
     """
 )
 
+# =========================
+# INPUT
+# =========================
 semantic_query = st.text_area(
     "Describe the job you're looking for",
-    placeholder="Example: Looking for entry-level AI job in Toronto that require Python and machine learning skills"
+    placeholder="Example: Entry-level AI job in Toronto with Python and machine learning"
 )
 
-semantic_search = st.button("Search with AI")
-
-if semantic_search and semantic_query:
-    st.info(f"Searching for: {semantic_query}")
+search_button = st.button("Search")
 
 # =========================
-# Load Data
+# OPENAI CLIENT
 # =========================
-connection = sqlite3.connect("data.db")
 
+api_key = openai_key
+client = OpenAI(api_key=api_key)
+
+# =========================
+# DATABASE CONNECTION (POSTGRES)
+# =========================
+engine = create_engine(
+    "postgresql+psycopg2://postgres:YOUR_PASSWORD@localhost:5433/postgres"
+)
+
+# =========================
+# LOAD DATA (WITH EMBEDDINGS)
+# =========================
 jobs = pd.read_sql(
-    "SELECT * FROM jobs_ca",
-    connection
+    """
+    SELECT job_id, job_title, employer_name, job_city, job_state,
+           job_country, job_is_remote, role_category,
+           experience_level, skills, job_description
+    FROM jobs_ca_new
+    """,
+    engine
 )
 
-jobs = jobs.copy()
-
-# Clean missing values
 jobs["skills"] = jobs["skills"].fillna("unknown")
 
 # =========================
-# Sidebar Filters
+# SIDEBAR FILTERS
 # =========================
-
 st.subheader("Filters")
 
 col1, col2, col3 = st.columns(3)
 
-# -------------------------
-# Role Filter
-# -------------------------
 with col1:
     role_filter = st.selectbox(
         "Role Category",
-        ["All"] + sorted(jobs["role_category"].unique())
+        ["All"] + sorted(jobs["role_category"].dropna().unique())
     )
 
-# -------------------------
-# Province Filter
-# -------------------------
 with col2:
     province_filter = st.selectbox(
         "Province",
-        ["All"] + sorted(jobs["job_state"].unique())
+        ["All"] + sorted(jobs["job_state"].dropna().unique())
     )
 
-# -------------------------
-# Experience Filter
-# -------------------------
 with col3:
     experience_filter = st.selectbox(
         "Experience Level",
-        ["All"] + sorted(jobs["experience_level"].unique())
+        ["All"] + sorted(jobs["experience_level"].dropna().unique())
     )
-
-# =========================
-# Second Row Filters
-# =========================
 
 col4, col5 = st.columns(2)
 
-# -------------------------
-# Remote Filter
-# -------------------------
 with col4:
     remote_filter = st.selectbox(
         "Work Type",
         ["All", "Remote", "On-Site"]
     )
 
-# -------------------------
-# Keyword Search
-# -------------------------
 with col5:
-    keyword = st.text_input(
-        "Search Job Title"
-    )
+    keyword = st.text_input("Search Job Title")
 
 # =========================
-# Skills Multi-Select
+# SKILLS FILTER
 # =========================
-
 all_skills = (
     jobs["skills"]
     .str.split(", ")
@@ -126,83 +119,80 @@ selected_skills = st.multiselect(
 )
 
 # =========================
-# Filtering Logic
+# SEMANTIC SEARCH LOGIC
 # =========================
-
 filtered = jobs.copy()
 
-# Role filter
+if search_button and semantic_query:
+
+    st.info(f"Searching for: {semantic_query}")
+
+    # 1. Create embedding
+    query_embedding = client.embeddings.create(
+        model="text-embedding-3-small",
+        input=semantic_query
+    ).data[0].embedding
+
+    # 2. Vector search in PostgreSQL (pgvector required)
+    results = pd.read_sql(
+        """
+        SELECT job_id, job_title, employer_name, job_city, job_state,
+               experience_level, role_category, skills, job_description
+        FROM jobs_ca_new
+        ORDER BY embedding <-> %s
+        LIMIT 20;
+        """,
+        engine,
+        params=[query_embedding]
+    )
+
+    filtered = results
+
+# =========================
+# APPLY TRADITIONAL FILTERS (AFTER SEMANTIC SEARCH)
+# =========================
+
 if role_filter != "All":
-    filtered = filtered[
-        filtered["role_category"] == role_filter
-    ]
+    filtered = filtered[filtered["role_category"] == role_filter]
 
-# Province filter
 if province_filter != "All":
-    filtered = filtered[
-        filtered["job_state"] == province_filter
-    ]
+    filtered = filtered[filtered["job_state"] == province_filter]
 
-# Experience filter
 if experience_filter != "All":
-    filtered = filtered[
-        filtered["experience_level"] == experience_filter
-    ]
+    filtered = filtered[filtered["experience_level"] == experience_filter]
 
-# Remote filter
 if remote_filter == "Remote":
     filtered = filtered[filtered["job_is_remote"] == 1]
 
 if remote_filter == "On-Site":
     filtered = filtered[filtered["job_is_remote"] == 0]
 
-# Keyword search
 if keyword:
     filtered = filtered[
-        filtered["job_title"].str.contains(
-            keyword,
-            case=False,
-            na=False
-        )
+        filtered["job_title"].str.contains(keyword, case=False, na=False)
     ]
 
-# Skills filter (MULTI-SELECT)
 if selected_skills:
     for skill in selected_skills:
         filtered = filtered[
-            filtered["skills"].str.contains(
-                skill,
-                case=False,
-                na=False
-            )
+            filtered["skills"].str.contains(skill, case=False, na=False)
         ]
 
 # =========================
-# Results Summary
+# RESULTS
 # =========================
-
-st.metric(
-    "Matching Jobs",
-    len(filtered)
-)
-
-# =========================
-# Results Table
-# =========================
+st.metric("Matching Jobs", len(filtered))
 
 st.subheader("Job Results")
 
-st.dataframe(
-    filtered[
-        [
-            "job_title",
-            "employer_name",
-            "job_city",
-            "job_state",
-            "experience_level",
-            "role_category",
-            "skills"
-        ]
-    ],
-    use_container_width=True
-)
+for _, row in filtered.iterrows():
+    with st.container():
+        st.markdown(f"""
+        ### 💼 {row['job_title']}
+        **🏢 {row['employer_name']}**  
+        📍 {row['job_city']}, {row['job_state']}  
+        🎯 {row['experience_level']} | {row['role_category']}  
+        🧠 Skills: {row['skills']}
+
+        ---
+        """)
