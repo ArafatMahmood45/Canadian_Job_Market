@@ -112,6 +112,7 @@ Built a Streamlit dashboard that provides:
 - Province-level analysis
 - City-level analysis
 - Hiring trend analysis
+- Embedding
 
 ---
 
