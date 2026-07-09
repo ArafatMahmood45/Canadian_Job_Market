@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine
 from openai import OpenAI
-from etl import openai_key
+from src.etl import openai_key, pg_password
 
 # =========================
 # CONFIG
@@ -48,7 +48,7 @@ client = OpenAI(api_key=api_key)
 # DATABASE CONNECTION (POSTGRES)
 # =========================
 engine = create_engine(
-    "postgresql+psycopg2://postgres:YOUR_PASSWORD@localhost:5433/postgres"
+    f"postgresql+psycopg2://postgres:{pg_password}@localhost:5433/postgres"
 )
 
 # =========================
@@ -127,23 +127,33 @@ if search_button and semantic_query:
 
     st.info(f"Searching for: {semantic_query}")
 
-    # 1. Create embedding
+    # 1. Create embedding for user query
     query_embedding = client.embeddings.create(
         model="text-embedding-3-small",
         input=semantic_query
     ).data[0].embedding
 
-    # 2. Vector search in PostgreSQL (pgvector required)
+    # Convert Python list -> pgvector format
+    query_vector = "[" + ",".join(map(str, query_embedding)) + "]"
+
+    # 2. Vector similarity search
     results = pd.read_sql(
         """
-        SELECT job_id, job_title, employer_name, job_city, job_state,
-               experience_level, role_category, skills, job_description
+        SELECT job_id,
+               job_title,
+               employer_name,
+               job_city,
+               job_state,
+               experience_level,
+               role_category,
+               skills,
+               job_description
         FROM jobs_ca_new
-        ORDER BY embedding <-> %s
+        ORDER BY embedding <-> CAST(%s AS vector)
         LIMIT 20;
         """,
         engine,
-        params=[query_embedding]
+        params=(query_vector,)
     )
 
     filtered = results

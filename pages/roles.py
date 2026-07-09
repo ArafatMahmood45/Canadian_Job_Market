@@ -1,6 +1,7 @@
 import streamlit as st
-import sqlite3
+from sqlalchemy import create_engine
 import pandas as pd
+from src.etl import pg_password
 
 st.set_page_config(
     page_title="Roles Analysis",
@@ -10,11 +11,14 @@ st.set_page_config(
 st.title("Roles Analysis")
 
 # Load data
-connection = sqlite3.connect("data.db")
+
+engine = create_engine(
+    f"postgresql+psycopg2://postgres:{pg_password}@localhost:5433/postgres"
+)
 
 jobs = pd.read_sql(
-    "SELECT * FROM jobs_ca",
-    connection
+    "SELECT * FROM jobs_new_ca",
+    engine
 )
 
 jobs = jobs.copy()
