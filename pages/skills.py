@@ -1,7 +1,6 @@
 import streamlit as st
-from sqlalchemy import create_engine
 import pandas as pd
-from src.etl import pg_password
+from src.database import engine
 
 st.set_page_config(page_title="Skills Analysis", layout="wide")
 
@@ -9,22 +8,19 @@ st.title("Skills Analysis (Canada Job Market)")
 
 # Load data
 
-engine = create_engine(
-    f"postgresql+psycopg2://postgres:{pg_password}@localhost:5433/postgres"
-)
+engine = engine
 jobs = pd.read_sql("SELECT * FROM jobs_ca", engine)
 
 jobs = jobs.copy()
 
-# Ensure skills are usable (they are stored as comma-separated strings)
 jobs["skills"] = jobs["skills"].fillna("unknown")
 
 # -----------------------------
 # KPIs
 # -----------------------------
 st.subheader("Key Insights")
-# remember to remove col4
-col1, col2, col3, col4 = st.columns(4)
+
+col1, col2, col3 = st.columns(3)
 
 with col1:
     total_unique_skills = (
@@ -49,9 +45,6 @@ with col3:
     avg_skills_per_job = jobs["skills_count"].mean()
     st.metric("Avg Skills per Job", round(avg_skills_per_job, 2))
 
-with col4:
-    med_skills_per_job = jobs["skills_count"].median()
-    st.metric("Avg Skills per Job", round(avg_skills_per_job, 2))
 
 # -----------------------------
 # Top Skills Chart
@@ -109,9 +102,3 @@ skill_table.columns = ["Skill", "Count"]
 
 st.dataframe(skill_table)
 
-# this too
-st.title("Skills Analysis (Canada Job Market)")
-
-st.caption(
-    "Explore the most in-demand technical skills across AI, Data, Cloud, and Software Engineering roles in Canada."
-)

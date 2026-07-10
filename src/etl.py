@@ -3,8 +3,7 @@ import numpy as np
 import pandas as pd
 import psycopg2
 from psycopg2.extras import execute_values
-import os
-from dotenv import load_dotenv
+from config import (RAPIDAPI_KEY, ADZ_KEY, ADZ_ID, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT, DB_USER)
 import time
 from job_features import (
 	get_experience_level,
@@ -16,23 +15,15 @@ from job_features import (
 	build_dedup_key)
 
 
-load_dotenv()
-
-RAPID_API_KEY = os.getenv("rapidapi_key")
-adz_key = os.getenv("adz_key")
-adz_id = os.getenv("adz_id")
-pg_password = os.getenv("pg_password")
-openai_key = os.getenv("openai_key")
-
 class ETL():
 	def __init__(self):
 		super().__init__()
 		self.connection = psycopg2.connect(
-			host="localhost",
-			database="postgres",
-			user="postgres",
-			password=pg_password,
-			port="5433"
+			host=DB_HOST,
+			database=DB_NAME,
+			user=DB_USER,
+			password=DB_PASSWORD,
+			port=DB_PORT
 		)
 
 		cursor = self.connection.cursor()
@@ -65,7 +56,7 @@ class ETL():
 		url = "https://jsearch.p.rapidapi.com/search-v2"
 
 		headers = {
-			"x-rapidapi-key": RAPID_API_KEY,
+			"x-rapidapi-key": RAPIDAPI_KEY,
 			"x-rapidapi-host": "jsearch.p.rapidapi.com",
 			"Content-Type": "application/json"
 		}
@@ -115,8 +106,8 @@ class ETL():
 
 		for query in queries:
 			params = {
-				"app_id": adz_id,
-				"app_key": adz_key,
+				"app_id": ADZ_ID,
+				"app_key": ADZ_KEY,
 				"what": query,
 				"where": "Canada",
 				"results_per_page": 50,

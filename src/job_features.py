@@ -22,10 +22,6 @@ def get_experience_level(title, description):
 
     return "unknown"
 
-# df["experience_level"] = df.apply(
-#     lambda row: get_experience_level(row.get("job_title", ""),
-#                                      row.get("job_description", "")), axis=1
-# )
 
 # create skills column
 def get_skills(title, description):

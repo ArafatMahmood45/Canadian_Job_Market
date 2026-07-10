@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-from sqlalchemy import create_engine
 from openai import OpenAI
-from src.etl import openai_key, pg_password
+from src.config import OPENAI_API_KEY
+from src.database import engine
 
 # =========================
 # CONFIG
@@ -41,15 +41,13 @@ search_button = st.button("Search")
 # OPENAI CLIENT
 # =========================
 
-api_key = openai_key
+api_key = OPENAI_API_KEY
 client = OpenAI(api_key=api_key)
 
 # =========================
 # DATABASE CONNECTION (POSTGRES)
 # =========================
-engine = create_engine(
-    f"postgresql+psycopg2://postgres:{pg_password}@localhost:5433/postgres"
-)
+engine = engine
 
 # =========================
 # LOAD DATA (WITH EMBEDDINGS)

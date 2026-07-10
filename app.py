@@ -1,16 +1,13 @@
 import streamlit as st
-from sqlalchemy import create_engine
 import pandas as pd
-from src.etl import pg_password
+from src.database import engine
 
 st.set_page_config(page_title="Canadian Job Market Intelligence", layout="wide")
 
 st.title("(CA) Canadian Job Market Intelligence")
 
 
-engine = create_engine(
-    f"postgresql+psycopg2://postgres:{pg_password}@localhost:5433/postgres"
-)
+engine = engine
 
 jobs = pd.read_sql("SELECT * FROM jobs_new_ca", engine)
 jobs = jobs.copy()

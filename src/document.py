@@ -1,15 +1,14 @@
-from sqlalchemy import create_engine, text
+from sqlalchemy import text
 from openai import OpenAI
 import pandas as pd
-from src.etl import pg_password, openai_key
+from src.config import OPENAI_API_KEY
+from src.database import engine
 
 print("SCRIPT STARTED")
 
-client = OpenAI(api_key=openai_key)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
-engine = create_engine(
-    f"postgresql+psycopg2://postgres:{pg_password}@localhost:5433/postgres"
-)
+engine = engine
 
 df = pd.read_sql("""
     SELECT job_id, job_title, employer_name, job_city, job_state,
