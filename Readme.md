@@ -1,129 +1,145 @@
 # 🇨🇦 Canadian Job Market Intelligence Platform
 
-A data engineering and analytics platform that collects Canadian technology job postings, transforms raw job market data, stores it in a database, and presents insights through an interactive dashboard.
+An end-to-end data engineering and AI-powered analytics platform that collects Canadian technology job market data, processes and stores structured employment information, generates labour market insights, and enables intelligent job discovery through semantic search and Retrieval-Augmented Generation (RAG).
 
-## Project Goal
+## Project Overview
+The Canadian Job Market Intelligence Platform was developed to provide data-driven insights into the Canadian technology job market by collecting real-world job postings and transforming raw employment data into actionable intelligence.
 
-The objective of this project is to help job seekers understand hiring trends across Canada by providing data-driven insights into:
+The platform helps users understand:
 
-- Job availability
+- Job availability across Canada
+- In-demand technical skills
+- Hiring trends over time
 - Geographic demand
 - Role distribution
-- Hiring activity over time
-- Required skills and qualifications
+- Relevant job opportunities based on user queries
 
 ---
 
-## What I Built
+## System Architecture
 
-### Automated ETL Pipeline
+                JSearch API
+                    |
+                Adzuna API
+                    |
+                    ↓
+             Extraction Layer
+                    |
+                    ↓
+          Transformation Layer
+     (Cleaning, Validation, Feature Engineering)
+                    |
+                    ↓
+             PostgreSQL Database
+                    |
+                    ↓
+        Streamlit Analytics Application
+        (Skills, Roles, Job Search)
+                    |
+                    ↓
+        Embedding + RAG Layer
+---
+## Data Engineering Pipeline
 
-Designed and implemented an end-to-end ETL pipeline that:
+### Data Ingestion
 
-- Extracts job postings from an external API
-- Handles API rate limits and retries
-- Cleans and validates raw data
-- Removes duplicate job postings
-- Performs feature engineering
-- Loads processed data into SQLite
+Built automated data ingestion workflows to collect job postings from external APIs:
 
-### Data Modeling
+- Integrated JSearch API and Adzuna API
+- Automated recurring data collection
+- Implemented API handling and error management
+- Processed raw job posting responses into structured datasets
 
-Created a structured job database containing:
+### Data Transformation
 
-- Job information
-- Location data
-- Employer information
-- Experience-level classifications
+Developed transformation workflows to prepare raw job data for analytics:
+
+- Cleaned and validated job records
+- Removed duplicate postings
+- Standardized job titles and locations
+- Extracted technical skills from job descriptions
+- Created additional features for analytics
+
+### Database Design
+
+Designed and managed a PostgreSQL database to store structured job market data, including:
+
+- Job details
+- Company information
+- Locations
+- Experience levels
 - Role categories
-- Skill-related features
+- Extracted skills
 
-### Feature Engineering
+---
 
-Developed custom functions to:
+## Analytics Dashboard
 
-- Classify experience levels
-- Categorize job roles
-- Extract and count technical skills from job descriptions
+Built an interactive Streamlit application providing:
 
-### Interactive Analytics Dashboard
+- Labour market overview metrics
+- Job distribution by province and city
+- In-demand skills analysis
+- Role-based job insights
+- Hiring trend analysis
 
-Built a Streamlit dashboard that provides:
+---
 
-- Market overview KPIs
-- Hiring activity by province
-- Top hiring cities
-- Role distribution analysis
-- Job posting trends over time
+## AI-Powered Search (RAG)
+
+Implemented a Retrieval-Augmented Generation (RAG) workflow to enable natural-language interaction with job market data.
+
+The system:
+
+- Converts job information into vector embeddings
+- Stores semantic representations for similarity search
+- Embeds user queries
+- Retrieves relevant job records based on semantic similarity
+- Generates contextual responses using retrieved information
+
+Example:
+
+"I am a Data Engineer looking for opportunities in Toronto. What jobs are available?"
+
+The system retrieves relevant job opportunities based on the user's query.
 
 ---
 
 ## Technologies Used
 
+### Programming & Data Processing
 - Python
 - Pandas
-- SQLite
-- Streamlit
-- Requests
-- Python Dotenv
-- Schedule
-
----
-
-## Skills Demonstrated
 
 ### Data Engineering
-
 - ETL Pipeline Development
-- Data Cleaning and Transformation
 - API Integration
-- Database Design
-- SQLite
+- Data Cleaning
+- Data Transformation
+- PostgreSQL
+- Data Modeling
 
-### Data Analysis
+### Cloud Technologies
+- Microsoft Azure
 
-- Exploratory Data Analysis
-- Feature Engineering
-- Data Aggregation
-- Trend Analysis
-
-### Software Engineering
-
-- Object-Oriented Programming
-- Modular Code Organization
-- Error Handling
-- Automation and Scheduling
-
-### Data Visualization
-
-- Interactive Dashboards
-- KPI Reporting
-- Business Intelligence Concepts
-- Streamlit Development
-
----
-
-## Current Features
-
-- Automated job collection
-- Daily ETL execution
-- SQLite data storage
-- Market overview dashboard
-- Province-level analysis
-- City-level analysis
-- Hiring trend analysis
-- Embedding
-
----
-
-## Planned Enhancements
-
-- Skills Intelligence Dashboard
-- Job Search Interface
-- Advanced Role Analytics
-- AI-Powered Market Insights
-- Agentic AI Career Assistant
+### AI & Machine Learning
+- Vector Embeddings
 - Retrieval-Augmented Generation (RAG)
+- Semantic Search
+
+### Application & Deployment
+- Streamlit
+- Docker
+- Git/GitHub
+
+---
+
+## Future Enhancements
+- Agentic AI career assistant
+- Automated resume-to-job matching
+- Advanced labour market forecasting
+- Real-time job alerts
+- Enhanced AI recommendations
 
 ---
 
@@ -131,12 +147,26 @@ Built a Streamlit dashboard that provides:
 
 ```text
 Canadian_Job_Platform/
+
+├── pages/
+│   ├── skills.py
+│   ├── search_jobs.py
+│   └── roles.py
+│
+├── script/
+│   └── run.py
+│
+├── src/
+│   ├── etl.py
+│   ├── database.py
+│   ├── document.py
+│   ├── config.py
+│   └── job_features.py
 │
 ├── app.py
-├── etl.py
-├── run.py
-├── job_features.py
-├── data.db
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
 └── README.md
 ```
 
@@ -144,4 +174,6 @@ Canadian_Job_Platform/
 
 🚧 Active Development
 
-The ETL pipeline and Market Overview dashboard are currently operational, with additional analytics and AI-powered features in development.
+🚀 Active Development
+
+The platform currently includes automated data ingestion, PostgreSQL storage, analytics dashboards, and AI-powered semantic search capabilities. Future improvements will focus on expanding intelligent career assistance features.
