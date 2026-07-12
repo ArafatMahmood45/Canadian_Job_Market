@@ -9,7 +9,7 @@ st.title("Skills Analysis (Canada Job Market)")
 # Load data
 
 engine = engine
-jobs = pd.read_sql("SELECT * FROM jobs_ca", engine)
+jobs = pd.read_sql("SELECT * FROM jobs_new_ca", engine)
 
 jobs = jobs.copy()
 

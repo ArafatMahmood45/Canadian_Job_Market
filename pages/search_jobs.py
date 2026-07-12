@@ -57,7 +57,7 @@ jobs = pd.read_sql(
     SELECT job_id, job_title, employer_name, job_city, job_state,
            job_country, job_is_remote, role_category,
            experience_level, skills, job_description
-    FROM jobs_ca_new
+    FROM jobs_new_ca
     """,
     engine
 )
