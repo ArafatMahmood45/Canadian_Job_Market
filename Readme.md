@@ -174,6 +174,4 @@ Canadian_Job_Platform/
 
 🚧 Active Development
 
-🚀 Active Development
-
 The platform currently includes automated data ingestion, PostgreSQL storage, analytics dashboards, and AI-powered semantic search capabilities. Future improvements will focus on expanding intelligent career assistance features.
