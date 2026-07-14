@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import psycopg2
 from psycopg2.extras import execute_values
-from config import (RAPIDAPI_KEY, ADZ_KEY, ADZ_ID, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT, DB_USER)
+from .config import (RAPIDAPI_KEY, ADZ_KEY, ADZ_ID, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT, DB_USER)
 import time
-from job_features import (
+from .job_features import (
 	get_experience_level,
 	get_skills,
 	get_role_categories,
@@ -256,7 +256,7 @@ class ETL():
 		cursor = self.connection.cursor()
 
 		insert_query = """
-			   INSERT INTO jobs_ca_new (
+			   INSERT INTO jobs_new_ca (
 				   job_id,
 				   job_title,
 				   employer_name,
