@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5273f694-bdf3-4fdd-86ba-4a3f322a15ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../student/.idea/misc.xml" afterDir="false" />
@@ -123,8 +122,7 @@
       <change afterPath="$PROJECT_DIR$/../weather_api/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather_api/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search_jobs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../product_inventory/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
