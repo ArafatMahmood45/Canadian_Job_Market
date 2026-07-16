@@ -1,4 +1,29 @@
 import ast
+import pandas as pd
+
+
+def normalize_locations(jobs):
+
+    location_mapping = {
+        "Québec": "Quebec",
+        "Montréal": "Montreal",
+        "Québec City": "Quebec City"
+    }
+
+
+    jobs["job_state"] = (
+        jobs["job_state"]
+        .replace(location_mapping)
+    )
+
+
+    jobs["job_city"] = (
+        jobs["job_city"]
+        .replace(location_mapping)
+    )
+
+
+    return jobs
 
 def get_experience_level(title, description):
     text = f'{title} {description}'.lower()

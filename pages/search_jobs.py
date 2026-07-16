@@ -4,6 +4,7 @@ from openai import OpenAI
 
 from src.config import OPENAI_API_KEY
 from src.database import engine
+from src.job_features import normalize_locations
 
 
 # =========================
@@ -121,6 +122,7 @@ if search_button and semantic_query:
         engine,
         params=(query_vector,)
     )
+    results = normalize_locations(results)
 
 
     results["skills"] = results["skills"].fillna(

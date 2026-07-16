@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from src.database import engine
+from src.job_features import normalize_locations
 
 st.set_page_config(page_title="Skills Analysis", layout="wide")
 
@@ -12,6 +13,7 @@ engine = engine
 jobs = pd.read_sql("SELECT * FROM jobs_new_ca", engine)
 
 jobs = jobs.copy()
+jobs = normalize_locations(jobs)
 
 jobs["skills"] = jobs["skills"].fillna("unknown")
 

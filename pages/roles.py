@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from src.database import engine
+from src.job_features import normalize_locations
 
 st.set_page_config(
     page_title="Roles Analysis",
@@ -19,6 +20,7 @@ jobs = pd.read_sql(
 )
 
 jobs = jobs.copy()
+jobs = normalize_locations(jobs)
 
 # Remove unknown roles
 jobs = jobs[jobs["role_category"] != "unknown"]
