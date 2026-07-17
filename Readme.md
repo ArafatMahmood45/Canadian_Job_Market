@@ -1,6 +1,8 @@
 # 🇨🇦 Canadian Job Market Intelligence Platform
 
-An end-to-end data engineering and AI-powered analytics platform that collects Canadian technology job market data, processes and stores structured employment information, generates labour market insights, and enables intelligent job discovery through semantic search and Retrieval-Augmented Generation (RAG).
+An end-to-end **data engineering and AI-powered analytics platform** that collects Canadian technology job market data, processes and stores structured employment information, generates labour market insights, and enables intelligent job discovery through semantic search and Retrieval-Augmented Generation (RAG).
+
+The platform is built using modern data engineering practices including API ingestion, ETL processing, PostgreSQL database management, Docker containerization, and Microsoft Azure cloud deployment.
 
 ## Project Overview
 The Canadian Job Market Intelligence Platform was developed to provide data-driven insights into the Canadian technology job market by collecting real-world job postings and transforming raw employment data into actionable intelligence.
@@ -38,6 +40,20 @@ The platform helps users understand:
                     |
                     ↓
         Embedding + RAG Layer
+
+## Deployment Components
+
+- **Azure Container Registry**
+  - Stores Docker images for application deployment
+
+- **Azure Container Apps**
+  - Hosts the Streamlit analytics application
+
+- **Azure Database for PostgreSQL Flexible Server**
+  - Stores processed job market data
+
+- **Docker**
+  - Provides reproducible application environments
 ---
 ## Data Engineering Pipeline
 
@@ -121,6 +137,9 @@ The system retrieves relevant job opportunities based on the user's query.
 
 ### Cloud Technologies
 - Microsoft Azure
+- Azure Container Apps
+- Azure Container Registry
+- Azure Database for PostgreSQL Flexible Server
 
 ### AI & Machine Learning
 - Vector Embeddings
@@ -130,6 +149,7 @@ The system retrieves relevant job opportunities based on the user's query.
 ### Application & Deployment
 - Streamlit
 - Docker
+- Docker compose
 - Git/GitHub
 
 ---
@@ -172,6 +192,6 @@ Canadian_Job_Platform/
 
 ## Status
 
-🚧 Active Development
+🚀 Deployed on Microsoft Azure
 
-The platform currently includes automated data ingestion, PostgreSQL storage, analytics dashboards, and AI-powered semantic search capabilities. Future improvements will focus on expanding intelligent career assistance features.
+Future development will focus on expanding intelligent career assistance features and scaling the data pipeline.
