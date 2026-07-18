@@ -89,53 +89,120 @@ class ETL():
 		df = pd.DataFrame(all_jobs)
 		return df
 
+	# def extract_adzuna(self):
+	# 	url = "https://api.adzuna.com/v1/api/jobs/ca/search/1"
+	#
+	# 	all_jobs = []
+	# 	queries = ["Data Engineer",
+	# 			   "Machine Learning Engineer",
+	# 			   "AI Engineer",
+	# 			   "Backend Engineer",
+	# 			   "Python Developer",
+	# 			   "Data Scientist",
+	# 			   "MLOps Engineer",
+	# 			   "Analytics Engineer",
+	# 			   "Cloud Engineer",
+	# 			   "Data Analyst"]
+	#
+	# 	for query in queries:
+	# 		params = {
+	# 			"app_id": ADZ_ID,
+	# 			"app_key": ADZ_KEY,
+	# 			"what": query,
+	# 			"where": "Canada",
+	# 			"results_per_page": 50,
+	# 			"content-type": "application/json"
+	# 		}
+	#
+	# 		response = requests.get(url, params=params)
+	# 		max_retries = 5
+	# 		retries = 0
+	#
+	# 		while response.status_code == 429 and retries < max_retries:
+	# 			print("Rate limited. Sleeping...")
+	# 			time.sleep(10)
+	# 			retries +=1
+	# 			response = requests.get(url, params=params)
+	# 			print("response status:", response.status_code)
+	#
+	# 		if response.status_code == 429:
+	# 			print("Still rate limited after retries. Skipping.")
+	# 			continue
+	# 		time.sleep(20)
+	#
+	# 		data = response.json()
+	# 		jobs = data.get("results", [])
+	# 		print("length of job_adz", len(jobs))
+	# 		all_jobs.extend(jobs)
+	#
+	# 	df_adzuna = pd.DataFrame(all_jobs)
+	# 	return df_adzuna
+
+	# new might delete
 	def extract_adzuna(self):
-		url = "https://api.adzuna.com/v1/api/jobs/ca/search/1"
 
 		all_jobs = []
-		queries = ["Data Engineer",
-				   "Machine Learning Engineer",
-				   "AI Engineer",
-				   "Backend Engineer",
-				   "Python Developer",
-				   "Data Scientist",
-				   "MLOps Engineer",
-				   "Analytics Engineer",
-				   "Cloud Engineer",
-				   "Data Analyst"]
+
+		queries = [
+			"Data Engineer",
+			"Senior Data Engineer",
+			"Junior Data Engineer",
+			"Machine Learning Engineer",
+			"AI Engineer",
+			"Artificial Intelligence Engineer",
+			"Backend Engineer",
+			"Software Engineer",
+			"Python Developer",
+			"Data Scientist",
+			"MLOps Engineer",
+			"Analytics Engineer",
+			"Cloud Engineer",
+			"Data Analyst",
+			"Business Intelligence Analyst",
+			"BI Developer",
+			"DevOps Engineer",
+			"ETL Developer",
+			"Database Developer",
+			"Azure Data Engineer"
+		]
 
 		for query in queries:
-			params = {
-				"app_id": ADZ_ID,
-				"app_key": ADZ_KEY,
-				"what": query,
-				"where": "Canada",
-				"results_per_page": 50,
-				"content-type": "application/json"
-			}
+			for page in range(1, 6):  # pages 1-5
 
-			response = requests.get(url, params=params)
-			max_retries = 5
-			retries = 0
+				url = f"https://api.adzuna.com/v1/api/jobs/ca/search/{page}"
 
-			while response.status_code == 429 and retries < max_retries:
-				print("Rate limited. Sleeping...")
-				time.sleep(10)
-				retries +=1
+				params = {
+					"app_id": ADZ_ID,
+					"app_key": ADZ_KEY,
+					"what": query,
+					"where": "Canada",
+					"results_per_page": 50,
+					"content-type": "application/json"
+				}
+
 				response = requests.get(url, params=params)
-				print("response status:", response.status_code)
 
-			if response.status_code == 429:
-				print("Still rate limited after retries. Skipping.")
-				continue
-			time.sleep(20)
+				if response.status_code == 429:
+					print("Rate limited. Skipping...")
+					continue
 
-			data = response.json()
-			jobs = data.get("results", [])
-			print("length of job_adz", len(jobs))
-			all_jobs.extend(jobs)
+				if response.status_code != 200:
+					print("Error:", response.status_code)
+					continue
+
+				data = response.json()
+				jobs = data.get("results", [])
+
+				print(
+					f"{query} | page {page}: {len(jobs)} jobs"
+				)
+
+				all_jobs.extend(jobs)
+
+				time.sleep(2)
 
 		df_adzuna = pd.DataFrame(all_jobs)
+
 		return df_adzuna
 
 
