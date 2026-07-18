@@ -6,13 +6,17 @@ import pandas as pd
 def run_etl():
     etl = ETL()
     df_adzuna = etl.extract_adzuna()
-    df_jsearch =etl.extract_jsearch()
+    #df_jsearch =etl.extract_jsearch()
 
     df_adzuna = etl.transform_adzuna(df_adzuna)
-    df_jsearch = etl.transform_jsearch(df_jsearch)
+    #df_jsearch = etl.transform_jsearch(df_jsearch)
 
-    df = pd.concat([df_adzuna, df_jsearch], ignore_index=True)
+    #new - remove later
+    df = df_adzuna
     df = df.drop_duplicates(subset=["job_id"])
+
+    # df = pd.concat([df_adzuna, df_jsearch], ignore_index=True)
+    # df = df.drop_duplicates(subset=["job_id"])
 
     df = etl.transform(df)
     print(f"Rows after transform: {len(df)}")
@@ -20,7 +24,7 @@ def run_etl():
     etl.load(df)
     print("ETL DONE")
 
-schedule.every().day.at("23:16").do(run_etl)
+schedule.every().day.at("03:02").do(run_etl)
 
 while True:
     schedule.run_pending()
