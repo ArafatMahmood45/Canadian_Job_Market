@@ -14,7 +14,7 @@ df = pd.read_sql("""
     SELECT job_id, job_title, employer_name, job_city, job_state,
            job_country, job_is_remote, role_category,
            experience_level, skills, job_description
-    FROM jobs_ca_new
+    FROM jobs_new_ca
     WHERE embedding IS NULL
 """, engine)
 
@@ -70,7 +70,7 @@ print("None embeddings:", sum(x is None for x in all_embeddings))
 with engine.begin() as conn:
     conn.execute(
         text("""
-            UPDATE jobs_ca_new
+            UPDATE jobs_new_ca
             SET embedding = :embedding
             WHERE job_id = :job_id
         """),

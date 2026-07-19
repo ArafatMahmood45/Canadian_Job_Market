@@ -150,7 +150,7 @@ if st.session_state.search_results is not None:
     st.divider()
 
     st.subheader(
-        "🎯 Refine Search Results"
+        "Refine Search Results"
     )
 
 
@@ -338,7 +338,7 @@ if st.session_state.search_results is not None:
 
 
     st.subheader(
-        "💼 Recommended Jobs"
+        "Recommended Jobs"
     )
 
 
@@ -360,15 +360,13 @@ if st.session_state.search_results is not None:
                     f"""
                     ### 💼 {row['job_title']}
 
-                    **🏢 {row['employer_name']}**
+                       Company: {row['employer_name']}
 
-                    📍 {row['job_city']}, {row['job_state']}
+                       Location: {row['job_city']}, {row['job_state']}
 
-                    🎯 {row['experience_level']} |
-                    {row['role_category']}
+                       Level: {row['experience_level']} | Category: {row['role_category']}
 
-                    🧠 Skills:
-                    {row['skills']}
+                       Skills: {row['skills']}
 
                     ---
                     """
