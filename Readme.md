@@ -1,8 +1,39 @@
 # 🇨🇦 Canadian Job Market Intelligence Platform
 
-An end-to-end **data engineering and AI-powered analytics platform** that collects Canadian technology job market data, processes and stores structured employment information, generates labour market insights, and enables intelligent job discovery through semantic search and Retrieval-Augmented Generation (RAG).
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED)
+![Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
+![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B)
+
+An end-to-end **data engineering and AI-powered analytics platform** that automates the collection, processing, storage, and analysis of Canadian technology job market data, delivering labour market insights and AI-powered semantic job search using Retrieval-Augmented Generation (RAG).
 
 The platform is built using modern data engineering practices including API ingestion, ETL processing, PostgreSQL database management, Docker containerization, and Microsoft Azure cloud deployment.
+
+## 🌐 Live Demo
+
+**Live Application:** 
+https://canadajobapp2026.agreeablebush-333b8346.eastus.azurecontainerapps.io
+
+Explore the deployed application to interact with the analytics dashboard and AI-powered semantic job search.
+
+## 📸 Application Preview
+
+The platform provides interactive labour market analytics and AI-powered job discovery through a multi-page Streamlit application.
+
+### Labour Market Dashboard
+
+![Dashboard](images/Dashboard.jpg)
+
+### Skills Analysis
+
+![Skills Analysis](images/Skills.jpg)
+
+### AI-Powered Semantic Search (RAG)
+
+![AI Search](images/AI-Powered_Job_Search.jpg)
+
+---
 
 ## Project Overview
 The Canadian Job Market Intelligence Platform was developed to provide data-driven insights into the Canadian technology job market by collecting real-world job postings and transforming raw employment data into actionable intelligence.
@@ -76,9 +107,9 @@ Developed transformation workflows to prepare raw job data for analytics:
 - Extracted technical skills from job descriptions
 - Created additional features for analytics
 
-### Database Design
+### Database Design (PostgreSQL)
 
-Designed and managed a PostgreSQL database to store structured job market data, including:
+Designed and optimized a PostgreSQL database to store structured job market data, including:
 
 - Job details
 - Company information
@@ -86,6 +117,7 @@ Designed and managed a PostgreSQL database to store structured job market data, 
 - Experience levels
 - Role categories
 - Extracted skills
+- Embeddings
 
 ---
 
@@ -192,6 +224,7 @@ Canadian_Job_Platform/
 
 ## Status
 
-🚀 Deployed on Microsoft Azure
+🚀 Production deployment running on Microsoft Azure.
 
 Future development will focus on expanding intelligent career assistance features and scaling the data pipeline.
+
