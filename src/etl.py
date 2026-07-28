@@ -40,18 +40,79 @@ class ETL():
 
 		return x
 
+	# def extract_jsearch(self):
+	# 	all_jobs = []
+	# 	querys = ["Data Engineer in Canada",
+    # 			  "Machine Learning Engineer in Canada",
+    # 			  "AI Engineer in Canada",
+	# 			  "Backend Engineer in Canada",
+	# 			  "Python Developer in Canada",
+	# 			  "Data Scientist in Canada",
+	# 			  "MLOps Engineer in Canada",
+	# 			  "Analytics Engineer in Canada",
+	# 			  "Cloud Engineer in Canada",
+	# 			  "Data Analyst in Canada"]
+	#
+	# 	url = "https://jsearch.p.rapidapi.com/search-v2"
+	#
+	# 	headers = {
+	# 		"x-rapidapi-key": RAPIDAPI_KEY,
+	# 		"x-rapidapi-host": "jsearch.p.rapidapi.com",
+	# 		"Content-Type": "application/json"
+	# 	}
+	#
+	# 	for query in querys:
+	# 		querystring = {"query": query, "num_pages": "3", "country": "ca", "date_posted": "week"}
+	#
+	# 		response = requests.get(url, headers=headers, params=querystring)
+	# 		max_retries = 5
+	# 		retries = 0
+	#
+	# 		while response.status_code == 429 and retries < max_retries:
+	# 			print("Rate limited. Sleeping...")
+	# 			time.sleep(10)
+	# 			retries += 1
+	# 			response = requests.get(url, headers=headers, params=querystring)
+	# 			print("response status:", response.status_code)
+	#
+	# 		if response.status_code == 429:
+	# 			print("Still rate limited after retries. Skipping.")
+	# 			continue
+	# 		time.sleep(20)
+	#
+	# 		data = response.json().get("data", {})
+	# 		jobs = data.get("jobs", [])
+	# 		print("length of job",len(jobs))
+	# 		all_jobs.extend(jobs)
+	#
+	#
+	# 	df = pd.DataFrame(all_jobs)
+	# 	return df
+
 	def extract_jsearch(self):
 		all_jobs = []
 		querys = ["Data Engineer in Canada",
-    			  "Machine Learning Engineer in Canada",
-    			  "AI Engineer in Canada",
+				  "Machine Learning Engineer in Canada",
+				  "AI Engineer in Canada",
 				  "Backend Engineer in Canada",
 				  "Python Developer in Canada",
 				  "Data Scientist in Canada",
 				  "MLOps Engineer in Canada",
 				  "Analytics Engineer in Canada",
 				  "Cloud Engineer in Canada",
-				  "Data Analyst in Canada"]
+				  "Data Analyst in Canada",
+				  "Senior Data Engineer in Canada",
+				  "Junior Data Engineer in Canada",
+				  "Artificial Intelligence Engineer in Canada",
+				  "Software Engineer in Canada",
+				  "Analytics Engineer in Canada",
+				  "Business Intelligence Analyst in Canada",
+				  "BI Developer in Canada",
+				  "DevOps Engineer in Canada",
+				  "ETL Developer in Canada",
+				  "Database Developer in Canada",
+				  "Azure Data Engineer in Canada"
+				  ]
 
 		url = "https://jsearch.p.rapidapi.com/search-v2"
 
@@ -81,10 +142,11 @@ class ETL():
 			time.sleep(20)
 
 			data = response.json().get("data", {})
+			print(response.status_code)
+			print(response.text)
 			jobs = data.get("jobs", [])
-			print("length of job",len(jobs))
+			print("length of job", len(jobs))
 			all_jobs.extend(jobs)
-
 
 		df = pd.DataFrame(all_jobs)
 		return df
