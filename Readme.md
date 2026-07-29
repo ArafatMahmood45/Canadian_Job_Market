@@ -8,7 +8,7 @@
 
 An end-to-end **data engineering and AI-powered analytics platform** that automates the collection, processing, storage, and analysis of Canadian technology job market data, delivering labour market insights and AI-powered semantic job search using Retrieval-Augmented Generation (RAG).
 
-The platform is built using modern data engineering practices including API ingestion, ETL processing, PostgreSQL database management, Docker containerization, and Microsoft Azure cloud deployment.
+The platform is built using modern data engineering practices including API-driven data ingestion, ETL pipelines, PostgreSQL data modeling, Docker containerization, and Microsoft Azure cloud deployment.
 
 ## 🌐 Live Demo
 
@@ -29,7 +29,7 @@ The platform provides interactive labour market analytics and AI-powered job dis
 
 ![Skills Analysis](images/Skills.jpg)
 
-### AI-Powered Semantic Search (RAG)
+### AI-Powered Job Search (RAG)
 
 ![AI Search](images/AI-Powered_Job_Search.jpg)
 
@@ -147,7 +147,9 @@ The system:
 
 Example:
 
-"I am a Data Engineer looking for opportunities in Toronto. What jobs are available?"
+"Example:
+
+"I am a Data Engineer looking for opportunities in Toronto. I have experience with Python, SQL, Databricks, Microsoft Azure, and Microsoft Fabric. Can you find relevant job opportunities that match my skills?"
 
 The system retrieves relevant job opportunities based on the user's query.
 

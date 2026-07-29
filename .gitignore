@@ -4,3 +4,6 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 .env
+# Database backups
+*.sql
+*.dump
