@@ -67,11 +67,16 @@ role_counts = jobs[jobs["role_category"] != "Unknown"]["role_category"].value_co
 
 st.bar_chart(role_counts)
 
-#  Job Posted by month
-jobs["day"] = jobs["job_posted_at_datetime_utc"].dt.date
+#  Daily Job Posting Volume
+current_year = jobs["job_posted_at_datetime_utc"].dt.year.max()
 
-daily_jobs = jobs.groupby("day").size().sort_index()
+jobs_current = jobs[
+    jobs["job_posted_at_datetime_utc"].dt.year == current_year
+]
 
+jobs_current["day"] = jobs_current["job_posted_at_datetime_utc"].dt.date
 
-st.subheader("Jobs Posted by Day")
+daily_jobs = jobs_current.groupby("day").size().sort_index()
+
+st.subheader(f"Daily Job Posting Volume ({current_year})")
 st.line_chart(daily_jobs)
