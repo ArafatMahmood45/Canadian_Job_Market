@@ -42,6 +42,11 @@ class ETL():
 
 	def extract_jsearch(self):
 		all_jobs = []
+
+		def clean_unicode(value):
+			if isinstance(value, str):
+				return value.encode("utf-8", "surrogatepass").decode("utf-8", "ignore")
+			return value
 		querys = ["Data Engineer in Canada",
     			  "Machine Learning Engineer in Canada",
     			  "AI Engineer in Canada",
@@ -82,8 +87,13 @@ class ETL():
 
 			data = response.json().get("data", {})
 			jobs = data.get("jobs", [])
+
 			print("length of job",len(jobs))
-			all_jobs.extend(jobs)
+			cleaned_jobs = [
+				{key: clean_unicode(value) for key, value in job.items()}
+				for job in jobs
+			]
+			all_jobs.extend(cleaned_jobs)
 
 
 		df = pd.DataFrame(all_jobs)

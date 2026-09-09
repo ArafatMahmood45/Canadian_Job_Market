@@ -20,7 +20,7 @@ def run_etl():
     etl.load(df)
     print("ETL DONE")
 
-schedule.every().day.at("20:46").do(run_etl)
+schedule.every().day.at("21:03").do(run_etl)
 
 while True:
     schedule.run_pending()
