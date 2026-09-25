@@ -1,7 +1,6 @@
 import ast
 import pandas as pd
 
-
 def normalize_locations(jobs):
 
     location_mapping = {
@@ -10,18 +9,15 @@ def normalize_locations(jobs):
         "Québec City": "Quebec City"
     }
 
-
     jobs["job_state"] = (
         jobs["job_state"]
         .replace(location_mapping)
     )
 
-
     jobs["job_city"] = (
         jobs["job_city"]
         .replace(location_mapping)
     )
-
 
     return jobs
 
@@ -46,7 +42,6 @@ def get_experience_level(title, description):
         return "senior"
 
     return "unknown"
-
 
 # create skills column
 def get_skills(title, description):
@@ -83,9 +78,6 @@ def get_skills(title, description):
             skill_found.append(skills)
 
     return list(set(skill_found)) if skill_found else ["unknown"]
-
-
-
 
 #create role category column
 role_categories = {
@@ -136,7 +128,6 @@ def get_role_categories(title, description):
 
     return "unknown"
 
-
 def get_city(location):
     area = location.get("area", [])
 
@@ -145,7 +136,6 @@ def get_city(location):
 
     return "Unknown"
 
-
 def get_state(location):
     area = location.get("area", [])
 
@@ -153,7 +143,6 @@ def get_state(location):
         return area[-2]
 
     return "Unknown"
-
 
 def safe_parse(x):
     if isinstance(x, dict):
@@ -164,7 +153,6 @@ def safe_parse(x):
         except:
             return {}
     return {}
-
 
 def build_dedup_key(row):
     title = row["job_title"].lower().strip()
